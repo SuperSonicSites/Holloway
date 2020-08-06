@@ -1,0 +1,218 @@
+<div class="footer__box py-5">
+  <div class="container">
+    <div class="d-flex flex-column align-items-center py-5">
+
+    <h2 class="footer__heading text-white text-center">{{ i18n "freequoteh2" }}</h2>
+
+    {{ if eq .Site.Language.Lang "fr" }}
+
+    <a href="{{ .Site.BaseURL }}services" class="btn btn-primary my-3" data-aos="zoom-in" data-aos-duration="500">{{ i18n "freequote" }}</a>
+        
+    {{ else }}
+        
+    <a href="{{ .Site.BaseURL }}en/services" class="btn btn-primary my-3" data-aos="zoom-in" data-aos-duration="500">{{ i18n "freequote" }}</a>
+    
+    {{ end }}
+
+    </div>
+
+    <div class="divider my-5">
+      <div class="container"></div>
+  </div>
+
+
+
+  <div class="row gx-5 py-5">
+
+    <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+      <img src="{{ .Site.BaseURL }}/{{ .Site.Params.logo }}" alt="{{ .Site.Params.businessname }}" class="logo">
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+      <h3 class="footer__box--link text-uppercase">{{ i18n "products" }}</h3>
+
+      <div class="d-flex flex-column">
+       
+        <ol class="list-unstyled">
+
+          <li>
+            {{ if eq .Site.Language.Lang "fr" }}
+          
+            <a href="{{ .Site.BaseURL }}/services/#auto" class="footer__link text-uppercase">{{ i18n "autoinsurance" }}</a>
+            
+                {{ else }}
+            
+                <a href="{{ .Site.BaseURL | relLangURL }}/services/#auto" class="footer__link text-uppercase">{{ i18n "autoinsurance" }}</a>
+            
+              {{ end }}
+          
+          </li>
+            
+
+          <li>
+            
+            {{ if eq .Site.Language.Lang "fr" }}
+          
+            <a href="{{ .Site.BaseURL }}/services#home" class="footer__link text-uppercase">{{ i18n "homeinsurance" }}</a>
+            
+                {{ else }}
+            
+                <a href="{{ .Site.BaseURL | relLangURL }}/services#home" class="footer__link text-uppercase">{{ i18n "homeinsurance" }}</a>
+            
+              {{ end }}
+            
+            </li>
+
+          <li>
+            
+            {{ if eq .Site.Language.Lang "fr" }}
+          
+            <a href="{{ .Site.BaseURL }}/services#business" class="footer__link text-uppercase">{{ i18n "businessinsurance" }}</a>
+            
+                {{ else }}
+            
+                <a href="{{ .Site.BaseURL | relLangURL }}/services#business" class="footer__link text-uppercase">{{ i18n "businessinsurance" }}</a>
+            
+              {{ end }}
+
+          </li>
+
+          <li>
+            
+            {{ if eq .Site.Language.Lang "fr" }}
+          
+            <a href="{{ .Site.BaseURL }}/services/#life" class="footer__link text-uppercase">{{ i18n "lifeinsurance" }}</a>
+            
+                {{ else }}
+            
+                <a href="{{ .Site.BaseURL | relLangURL }}/services/#life" class="footer__link text-uppercase">{{ i18n "lifeinsurance" }}</a>
+            
+              {{ end }}
+
+          
+          
+          </li>
+
+          <li>
+
+            {{ if eq .Site.Language.Lang "fr" }}
+          
+            <a href="{{ .Site.BaseURL }}/services#life" class="footer__link text-uppercase">{{ i18n "criticalillness" }}</a>
+            
+                {{ else }}
+            
+                <a href="{{ .Site.BaseURL | relLangURL }}/services#life" class="footer__link text-uppercase">{{ i18n "criticalillness" }}</a>
+            
+              {{ end }}
+            
+          </li>
+
+          <li>
+            {{ if eq .Site.Language.Lang "fr" }}
+          
+            <a href="{{ .Site.BaseURL }}/services#life" class="footer__link text-uppercase">{{ i18n "disabilityinsurance" }}</a>
+            
+                {{ else }}
+            
+                <a href="{{ .Site.BaseURL | relLangURL }}/services#life" class="footer__link text-uppercase">{{ i18n "disabilityinsurance" }}</a>
+            
+              {{ end }}
+            
+          
+          
+          </li>
+
+        </ol>
+
+      </div>
+
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
+      <h3 class="footer__box--link">{{ i18n "company" }}</h3>
+
+        <ol class="list-unstyled">
+
+          <li>
+            {{ if eq .Site.Language.Lang "fr" }}
+          
+            <a href="{{ .Site.BaseURL }}/a-propos" class="footer__link text-uppercase">{{ i18n "aboutus" }}</a>
+            
+                {{ else }}
+            
+                <a href="{{ .Site.BaseURL | relLangURL }}/about" class="footer__link text-uppercase">{{ i18n "aboutus" }}</a>
+            
+              {{ end }}
+            
+          </li>
+
+          <li>
+
+            {{ if eq .Site.Language.Lang "fr" }}
+          
+            <a href="{{ .Site.BaseURL }}/privacy-policy" class="footer__link text-uppercase">{{ i18n "privacypolicy" }}</a>
+            
+                {{ else }}
+            
+                <a href="{{ .Site.BaseURL | relLangURL }}/privacy-policy" class="footer__link text-uppercase">{{ i18n "privacypolicy" }}</a>
+            
+              {{ end }}
+
+          </li>
+
+        </ol>
+
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12">
+      <h3 class="footer__box--link">CONTACT</h3>
+
+      <address class="footer__address">
+
+        <small>102B-54 BLVD DE LA CITE DES JEUNES,</small>
+        <br>
+        <small>OFFICE #232</small>
+        <br>
+        <small>VAUDREUIL-DORION, QC</small>
+        <br>
+        <small>J7V 9L5</small>
+
+      </address>      
+
+
+    </div>
+
+  </div>
+</div>
+</div>
+<div class="credit py-3 text-white">
+      <div class="container d-flex flex-lg-row justify-content-lg-between flex-column align-items-center">
+        <div class="pr-lg-2">
+          <p>Copyright © {{ dateFormat "2006" now }} - 
+            
+            {{ if eq .Site.Language.Lang "fr" }}
+          
+            <a href="{{ .Site.BaseURL }}/privacy-policy" class="footer__link">{{ i18n "privacypolicy" }}
+            
+                {{ else }}
+            
+                <a href="{{ .Site.BaseURL | relLangURL }}/privacy-policy" class="footer__link">{{ i18n "privacypolicy" }}</a>
+            
+              {{ end }}
+              
+            </a></p>
+        </div>   
+
+        <div>
+            <p>{{ i18n "credit" }} <a href="https://www.supersonicsites.com" class="origin">SuperSonic Sites</a></p>
+        </div>
+
+                   
+      </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.min.js" integrity="sha384-oesi62hOLfzrys4LxRF63OJCXdXDipiYWBnvTl9Y9/TRlw5xlKIEHpNyvvDShgf/" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>

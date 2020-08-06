@@ -1,0 +1,194 @@
+// HEADER SECTION
+
+@media (min-width: 280px) {
+    .hero {
+        min-height: 100vh;
+        background-color: white;
+        border-bottom: 6px solid $brand-color;
+
+        &__features {
+            letter-spacing: 3px;
+        }
+
+    .btn-hero {
+        font-size: 0.9rem !important;
+    } 
+
+    &__box {
+        color: white;
+        z-index: 10;
+        h1 {
+            font-size: 1.7rem;
+            font-weight: normal !important;
+            letter-spacing: 3px;
+        }
+        h2 {
+            font-size: 0.95rem;
+            letter-spacing: 3px;
+        }
+        h3 {
+            font-size: 0.95rem;
+            letter-spacing: 3px;
+        }
+    }
+    &__img {
+        bottom: 0px;
+        right: 0%;
+        z-index: 5;
+        width: 50%;
+
+        &--1 {
+            width: 100% !important;
+        }
+    }
+}
+}
+// HEADER SECTION
+
+@media (min-width: 750px) {
+    .hero {
+        min-height: 100vh;
+        background-color: white;
+        border-bottom: 6px solid $brand-color;
+
+        &__features {
+            letter-spacing: 3px;
+        }
+
+    .btn-hero {
+        font-size: 1.1rem !important;
+    } 
+
+    &__box {
+        color: white;
+        z-index: 10;
+        h1 {
+            font-size: 2.75rem;
+            font-weight: normal !important;
+            letter-spacing: 3px;
+        }
+        h2 {
+            font-size: 1.5rem;
+            letter-spacing: 3px;
+        }
+        h3 {
+            font-size: 1.5rem;
+            letter-spacing: 3px;
+        }
+    }
+    &__img {
+        bottom: 0px;
+        right: 0%;
+        z-index: 5;
+        width: 35%;
+
+        &--1 {
+            width: 100% !important;
+        }
+    }
+}
+}
+@media (min-width: 1280px) {
+    .hero {
+        background-color: white;
+        border-bottom: 6px solid $brand-color;
+
+        &__features {
+            letter-spacing: 3px;
+        }
+
+    .btn-hero {
+        font-size: 1.25rem !important;
+    } 
+
+    &__box {
+        color: white;
+        z-index: 10;
+        h1 {
+            font-size: 4.25rem;
+            font-weight: normal !important;
+            letter-spacing: 3px;
+        }
+        h2 {
+            font-size: 2rem;
+            letter-spacing: 3px;
+        }
+        h3 {
+            font-size: 2rem;
+            letter-spacing: 3px;
+        }
+    }
+    &__img {
+        bottom: 0px;
+        right: 0%;
+        z-index: 5;
+        width: 30% !important;
+    }
+}
+}
+
+@media (min-width: 1980px) {
+.hero {
+    background-color: white;
+    border-bottom: 6px solid $brand-color;
+
+    &__features {
+        letter-spacing: 3px;
+    }
+
+    .btn-hero {
+        font-size: 1.5rem !important;
+    } 
+
+    &__box {
+        color: white;
+        z-index: 10;
+        h1 {
+            font-size: 5.75rem;
+            font-weight: normal !important;
+            letter-spacing: 3px;
+        }
+        h2 {
+            font-size: 2rem;
+            letter-spacing: 3px;
+        }
+        h3 {
+            font-size: 2rem;
+            letter-spacing: 3px;
+        }
+    }
+    &__img {
+        bottom: 0px;
+        right: 0%;
+        z-index: 5;
+        
+        &--1 {
+            width: 60% !important;
+        }
+    }
+}
+}
+
+// SOLUTIONS SECTION
+.solutions {
+
+    &__subheading {
+
+        max-width: 980px;
+
+    }
+
+}
+
+// About SECTION
+.about {
+
+    &__subheading {
+
+        max-width: 980px;
+
+    }
+
+}
+
+

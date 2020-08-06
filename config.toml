@@ -1,0 +1,118 @@
+baseURL = "https://www.alanstevenson.ca/"
+DefaultContentLanguage = "fr"
+disableKinds = ["taxonomy", "taxonomyTerm"]
+googleAnalytics = "UA-173997177-1"
+
+[languages]
+
+    [languages.fr]
+    languageCode = "fr"
+    title = "Alan Stevenson Assurances & Services Financiers"
+    description = "Nous offrons à nos clients la meilleure couverture au meilleur prix avec le service pour le prouver. Visitez notre site Web pour obtenir votre devis gratuit directement en ligne."
+    contentDir = "content/fr"
+
+        [[languages.fr.menu.main]]
+        name = "Accueil"
+        url = "/"
+        weight = 1
+
+        [[languages.fr.menu.main]]
+        name = "À Propos"
+        url = "/a-propos/"
+        weight = 2
+
+        [[languages.fr.menu.main]]
+        name = "Services"
+        url = "/services/"
+        weight = 3
+
+        [[languages.fr.menu.main]]
+        name = "Réclamations"
+        url = "/reclamations/"
+        weight = 4
+
+        [[languages.fr.menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 5
+
+    [languages.en]
+    languageCode = "en"
+    title = "Alan Stevenson Insurances & Financial Services"
+    description = "Offering our clients the best coverage at the best price with the service to back it up. Visit our website to get your free quote on your insurance."
+    contentDir = "content/en"
+
+        [[languages.en.menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+    
+        [[languages.en.menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 2
+
+        [[languages.en.menu.main]]
+        name = "Services"
+        url = "/services/"
+        weight = 3
+
+        [[languages.en.menu.main]]
+        name = "Claims"
+        url = "/claims/"
+        weight = 4
+
+        [[languages.en.menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 5
+
+[params]
+    # Schema Information
+    businessname = "Alan Stevenson Insurances & Financial Services"
+    type = "LocalBusiness" # Enter Your Type of business - schema.org
+    reviewcount = "5" # How many reviews you've got
+    reviewvalue = "4.5" # Average ratings on Yelp & Google
+    reservation = "false" # Do you accept reservations? Enter true or false
+    openinghour = "Mo-Fr 9:00-17:00" # Opening Hours
+    address = "102B-54 BLVD de la Cite Des Jeunes, #232" # Enter Address Here
+    city = "Vaudreuil-Dorion" # Enter City
+    region = "QC" # Enter State or Province Here
+    country = "Canada" #Enter Country Here
+    postalcode = "J7V 9L5" # Enter Postal Code
+    phone = "+1-514-437-4447" # Enter Phone Number
+    email = "info@alanstevenson.ca" # Enter Your Email
+    facebookurl = "https://www.facebook.com/"
+    instagram = "https://instagram.com/"
+    logo = "img/logo.jpg"
+    image = "img/og.jpg" # Ideal 1200 x 630 for schema + og
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+    
+
+    [[menu.main]]
+        name = "Home"
+        url = "/"
+        weight = 1
+
+    [[menu.main]]
+        name = "About"
+        url = "/about/"
+        weight = 2
+
+    [[menu.main]]
+        name = "Services"
+        url = "/services/"
+        weight = 3
+
+    [[menu.main]]
+        name = "Claims"
+        url = "/claims/"
+        weight = 4
+
+    [[menu.main]]
+        name = "Contact"
+        url = "/contact/"
+        weight = 5

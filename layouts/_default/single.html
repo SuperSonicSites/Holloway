@@ -1,0 +1,33 @@
+{{ define "main" }}
+
+<header class="subheader">
+
+    <div class="overlay h-100">
+  
+        <div class="sub-content container d-flex align-items-center h-100">
+  
+          <h1 class="display-4 text-uppercase text-white text-shadow" data-aos="fade" data-aos-duration="1800">404</h1>
+  
+        </div>
+  
+    </div>
+  
+  </header>
+
+<section class="py-5 my-5 container">
+
+    <h1 class="display-4">{{ .Params.message }}</h1>
+
+    {{ if eq .Site.Language.Lang "fr" }}
+
+    <a href="{{ .Site.BaseURL }}" class="btn btn-primary my-3">Page D'Accueil</a>
+        
+    {{ else }}
+        
+    <a href="{{ .Site.BaseURL }}en" class="btn btn-primary my-3">Return Home</a>
+    
+    {{ end }}
+
+</section>
+
+{{ end }}

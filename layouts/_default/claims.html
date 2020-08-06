@@ -1,0 +1,21 @@
+{{ define "main" }}
+
+{{- partial "subheader.html" . }}
+
+<section class="container py-5 my-5">
+
+    {{ .Content }}
+
+    {{ if eq .Site.Language.Lang "fr" }}
+
+    <a href="{{ .Site.BaseURL }}contact" class="btn btn-primary my-3" data-aos="zoom-in" data-aos-duration="500">Contactez-Nous</a>
+        
+    {{ else }}
+        
+    <a href="{{ .Site.BaseURL }}en/contact" class="btn btn-primary my-3" data-aos="zoom-in" data-aos-duration="500">Contact Us</a>
+    
+    {{ end }}
+
+</section>
+
+{{ end }}
