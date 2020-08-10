@@ -9,7 +9,7 @@
 - id: faq
   translation: "Frequently Asked Questions"
 - id: appointment
-  translation: "On Appointment"
+  translation: "Take An Appointment"
 - id: learnmore
   translation: "Learn More"
 - id: firstname
@@ -26,6 +26,10 @@
   translation: "Informations"
 - id: send
   translation: "Send"
+- id: permanent-eyebrow
+  translation: "Permanent Eyebrow"
+- id: permanent-lips
+  translation: "Permanent Lipstick"
 
 
 # Nav

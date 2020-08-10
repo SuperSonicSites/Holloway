@@ -1,52 +1,52 @@
 a {
-  color: #c41313;
+  color: #748575;
   transition: all .3s;
   text-decoration: none; }
   a:hover {
     color: black; }
 
-/* montserrat-regular - latin */
+/* source-sans-pro-regular - latin */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 400;
-  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("/fonts/montserrat-v14-latin-regular.woff2") format("woff2"), url("/fonts/montserrat-v14-latin-regular.woff") format("woff");
+  src: local("Source Sans Pro Regular"), local("SourceSansPro-Regular"), url("/fonts/source-sans-pro-v13-latin-regular.woff2") format("woff2"), url("/fonts/source-sans-pro-v13-latin-regular.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
 
-/* montserrat-700 - latin */
+/* source-sans-pro-700 - latin */
 @font-face {
-  font-family: 'Montserrat';
+  font-family: 'Source Sans Pro';
   font-style: normal;
   font-weight: 700;
-  src: local("Montserrat Bold"), local("Montserrat-Bold"), url("/fonts/montserrat-v14-latin-700.woff2") format("woff2"), url("/fonts/montserrat-v14-latin-700.woff") format("woff");
+  src: local("Source Sans Pro Bold"), local("SourceSansPro-Bold"), url("/fonts/source-sans-pro-v13-latin-700.woff2") format("woff2"), url("/fonts/source-sans-pro-v13-latin-700.woff") format("woff");
   /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
 
 body {
-  font-family: 'Montserrat' !important; }
+  font-family: 'Source Sans Variable' sans-serif !important; }
 
 p {
   color: #888;
   font-size: 1.2rem; }
 
 svg {
-  fill: #c41313; }
+  fill: #748575; }
 
 .btn-primary {
-  background-color: #c41313;
-  border-color: #c41313;
+  background-color: #748575;
+  border-color: #748575;
   border-radius: 2px;
   box-shadow: 0px 0px 30px 2px rgba(0, 0, 0, 0.2);
   padding: 15px 20px !important;
   letter-spacing: 3px; }
 
 .btn-primary:hover {
-  background-color: #c41313;
-  border-color: #c41313;
+  background-color: #748575;
+  border-color: #748575;
   opacity: 0.8; }
 
 .btn-primary:active {
-  background-color: #c41313;
-  border-color: #c41313; }
+  background-color: #748575;
+  border-color: #748575; }
 
 .btn-check:active + .btn-primary:focus, .btn-check:checked + .btn-primary:focus, .btn-primary.active:focus, .btn-primary:active:focus, .show > .btn-primary.dropdown-toggle:focus {
   box-shadow: none !important; }
@@ -58,14 +58,28 @@ svg {
   box-shadow: none; }
 
 .btn-primary:focus {
-  background-color: #c41313;
-  border-color: #c41313; }
+  background-color: #748575;
+  border-color: #748575; }
+
+.videoWrapper {
+  position: relative;
+  padding-bottom: 56.25%;
+  /* 16:9 */
+  padding-top: 3px;
+  height: 0; }
+
+.videoWrapper iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%; }
 
 @media (min-width: 280px) {
   .hero {
     min-height: 100vh;
     background-color: white;
-    border-bottom: 6px solid #c41313; }
+    border-bottom: 6px solid #748575; }
     .hero__features {
       letter-spacing: 3px; }
     .hero .btn-hero {
@@ -95,7 +109,7 @@ svg {
   .hero {
     min-height: 100vh;
     background-color: white;
-    border-bottom: 6px solid #c41313; }
+    border-bottom: 6px solid #748575; }
     .hero__features {
       letter-spacing: 3px; }
     .hero .btn-hero {
@@ -124,7 +138,7 @@ svg {
 @media (min-width: 1280px) {
   .hero {
     background-color: white;
-    border-bottom: 6px solid #c41313; }
+    border-bottom: 6px solid #748575; }
     .hero__features {
       letter-spacing: 3px; }
     .hero .btn-hero {
@@ -133,7 +147,7 @@ svg {
       color: white;
       z-index: 10; }
       .hero__box h1 {
-        font-size: 4.25rem;
+        font-size: 3.75rem;
         font-weight: normal !important;
         letter-spacing: 3px; }
       .hero__box h2 {
@@ -151,7 +165,7 @@ svg {
 @media (min-width: 1980px) {
   .hero {
     background-color: white;
-    border-bottom: 6px solid #c41313; }
+    border-bottom: 6px solid #748575; }
     .hero__features {
       letter-spacing: 3px; }
     .hero .btn-hero {
@@ -183,7 +197,7 @@ svg {
   max-width: 980px; }
 
 .about__section {
-  background-color: #c41313;
+  background-color: #748575;
   color: white; }
 
 .contact__form--info {
@@ -192,10 +206,10 @@ svg {
 
 .contact__detail {
   padding: 15px 0;
-  border-top: 1px solid #c41313; }
+  border-top: 1px solid #748575; }
 
 .contact__detail a {
-  fill: #c41313; }
+  fill: #748575; }
 
 .contact__detail a:hover {
   fill: black; }
@@ -227,12 +241,12 @@ svg {
   margin: 0rem !important; }
 
 .footer .credit a {
-  color: #c41313; }
+  color: #748575; }
   .footer .credit a:hover {
     color: color; }
 
 .footer__address {
-  color: #c41313; }
+  color: #748575; }
 
 @media screen and (max-width: 768px) {
   .footer .credit p {
@@ -244,13 +258,13 @@ nav a {
   font-size: 1.05rem;
   padding-left: 37px !important; }
   nav a:hover {
-    color: #c41313; }
+    color: #748575; }
 
 nav .navbar-brand {
   padding-left: 0px !important; }
 
 .translate {
-  background-color: #c41313;
+  background-color: #748575;
   margin-left: 15px;
   padding: 10px;
   transition: all .5s; }
@@ -262,7 +276,7 @@ nav .navbar-brand {
   .translate:hover {
     background-color: white; }
     .translate:hover a {
-      color: #c41313 !important; }
+      color: #748575 !important; }
 
 .nav-logo {
   max-width: 270px; }
@@ -412,7 +426,7 @@ nav .navbar-brand {
   cursor: pointer;
   width: 50px;
   height: 50px;
-  background-color: #c41313;
+  background-color: #748575;
   text-indent: -9999px;
   display: none;
   -webkit-border-radius: 60px;
@@ -455,10 +469,31 @@ nav .navbar-brand {
     text-transform: uppercase;
     font-weight: 700; }
 
+/* cormorant-regular - latin */
+@font-face {
+  font-family: 'Cormorant';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Cormorant Regular"), local("Cormorant-Regular"), url("/fonts/cormorant-v8-latin-regular.woff2") format("woff2"), url("/fonts/cormorant-v8-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+/* montserrat-regular - latin */
+@font-face {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 400;
+  src: local("Montserrat Regular"), local("Montserrat-Regular"), url("/fonts/montserrat-v14-latin-regular.woff2") format("woff2"), url("/fonts/montserrat-v14-latin-regular.woff") format("woff");
+  /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */ }
+
+body {
+  font-family: 'Montserrat'; }
+  body h1, body h2, body h3, body h4, body h5 {
+    font-family: 'Cormorant' !important; }
+
 .divider {
   border-bottom: 1px solid grey; }
   .divider .container {
-    border-bottom: 5px solid #c41313;
+    border-bottom: 5px solid #748575;
     margin-bottom: -3px;
     max-width: 320px; }
 
@@ -477,19 +512,19 @@ nav .navbar-brand {
   background-size: cover;
   height: 370px;
   margin-top: 120px;
-  border-bottom: 6px solid #c41313; }
+  border-bottom: 6px solid #748575; }
 
 .bg-brand {
-  background-color: #c41313; }
+  background-color: #748575; }
 
 .card-title {
   padding-bottom: 10px;
   margin-bottom: 15px;
-  border-bottom: 2px solid #c41313;
+  border-bottom: 2px solid #748575;
   font-size: 1rem; }
 
 .bg-primary {
-  background-color: #c41313 !important; }
+  background-color: #748575 !important; }
 
 .badge {
   font-size: 1rem !important;

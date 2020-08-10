@@ -13,11 +13,11 @@
         
         {{ if eq .Site.Language.Lang "fr" }}
           
-        <a href="{{ .Site.BaseURL }}services" class="btn btn-primary text-uppercase" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="2000">{{ i18n "freequote" }}</a>
+        <a href="{{ .Site.BaseURL }}services" class="btn btn-primary text-uppercase" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="2000">{{ i18n "appointment" }}</a>
                 
         {{ else }}
                 
-        <a href="{{ .Site.BaseURL }}en/services" class="btn btn-primary text-uppercase" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="2000">{{ i18n "freequote" }}</a>
+        <a href="{{ .Site.BaseURL }}en/services" class="btn btn-primary text-uppercase" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="2000">{{ i18n "appointment" }}</a>
                 
         {{ end }}
 
@@ -25,7 +25,7 @@
 
     <div class="hero__img position-absolute">
 
-        <img src="{{ .Site.BaseURL }}img/heroimg.jpg" class="hero__img--1" alt="">
+        <img src="{{ .Site.BaseURL }}img/heroimg.png" class="hero__img--1" alt="">
 
     </div>
 
@@ -33,31 +33,170 @@
 
 </header>
 
-<section class="solutions py-5 my-5 container">
+<section class="about mt-5 py-5 container">
+
+    <div class="d-flex flex-column justify-content-center align-items-center">
+        
+        <h2 class="about__heading display-4 mb-5 text-center text-uppercase">
+
+            {{ .Params.about__heading }}
+    
+        </h2>
+
+        </div>
+
+        <div class="videoWrapper shadow-lg">
+            
+            <iframe width="560" height="315" src="{{ .Params.Video }}" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>       
+        
+        </div>
+        
+            <p class="text-center mt-5">
+
+            {{ .Params.about__subheading | safeHTML }}
+
+        <div class="d-flex flex-column justify-content-center align-items-center">
+       
+            <div class="divider my-5 w-25">
+    
+    
+                <div class="container"></div>
+    
+            </div>
+    
+        </div>
+
+</section>
+
+<section class="solutions container">
 
     <div class="d-flex flex-column justify-content-center align-items-center">
 
         <h2 class="text-center display-5 text-uppercase">
 
-            {{ .Params.solutions__heading }}
+            {{ .Params.services__heading }}
     
         </h2>
+    
+        <p class="text-center">
 
-        <p class="solutions__subheading text-center pt-3">
-
-            {{ .Params.solutions__subheading }}
-
+            {{ .Params.services__subheading }}
+    
         </p>
-    
-        <div class="divider my-5 w-25">
-    
-            <div class="container"></div>
-    
-        </div>
     
     </div>
 
     <div class="row g-5 py-5" data-aos="fade-up" data-aos-duration="500">
+
+        <div class="col-lg-3 col-md-12">
+
+            <div class="card">
+
+                <img src="{{ .Site.BaseURL}}img/microblading.jpg" class="card-img-top" alt="...">
+
+                <div class="card-body p-4 d-flex flex-column justify-content-center align-items-center">
+
+                  <h5 class="card-title text-uppercase pb-3 text-center">Microblading</h5>
+
+                  {{ if eq .Site.Language.Lang "fr" }}
+          
+                  <a href="{{ .Site.BaseURL }}services/#microblading" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                
+                  {{ else }}
+                
+                  <a href="{{ .Site.BaseURL }}en/services/#microblading" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                
+                  {{ end }}
+
+                </div>
+
+              </div>
+
+        </div>
+
+        <div class="col-lg-3 col-md-12">
+
+            <div class="card">
+
+                <img src="{{ .Site.BaseURL}}img/permanent-eyebrow.jpg" class="card-img-top" alt="...">
+
+                <div class="card-body p-4 d-flex flex-column justify-content-center align-items-center">
+
+                  <h5 class="card-title text-uppercase pb-3 text-center">{{ i18n "permanent-eyebrow" }}</h5>
+
+                  {{ if eq .Site.Language.Lang "fr" }}
+          
+                  <a href="{{ .Site.BaseURL }}services/#car" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                
+                  {{ else }}
+                
+                  <a href="{{ .Site.BaseURL }}en/services/#car" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                
+                  {{ end }}
+
+                </div>
+                
+              </div>
+
+
+        </div>
+
+        <div class="col-lg-3 col-md-12">
+
+            <div class="card">
+
+                <img src="{{ .Site.BaseURL}}img/permanent-lipstick.jpg" class="card-img-top" alt="...">
+
+                <div class="card-body p-4 d-flex flex-column justify-content-center align-items-center">
+
+                  <h5 class="card-title text-uppercase pb-3 text-center">{{ i18n "permanent-lips" }}</h5>
+
+                  {{ if eq .Site.Language.Lang "fr" }}
+          
+                  <a href="{{ .Site.BaseURL }}services/#business" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                
+                  {{ else }}
+                
+                  <a href="{{ .Site.BaseURL }}en/services/#business" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                
+                  {{ end }}
+
+                </div>
+                
+              </div>
+
+
+        </div>
+
+        <div class="col-lg-3 col-md-12">
+
+            <div class="card">
+
+                <img src="{{ .Site.BaseURL}}img/life.jpg" class="card-img-top" alt="...">
+
+                <div class="card-body p-4 d-flex flex-column justify-content-center align-items-center">
+
+                  <h5 class="card-title text-uppercase pb-3 text-center">{{ i18n "lifeinsurance" }}</h5>
+
+                    {{ if eq .Site.Language.Lang "fr" }}
+          
+                    <a href="{{ .Site.BaseURL }}services/#life" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  
+                    {{ else }}
+                  
+                    <a href="{{ .Site.BaseURL }}en/services/#life" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  
+                    {{ end }}
+
+                </div>
+                
+              </div>
+
+        </div>
+
+    </div>
+
+    <div class="row g-5 py-5 justify-content-center" data-aos="fade-up" data-aos-duration="500">
 
         <div class="col-lg-3 col-md-12">
 
@@ -139,134 +278,7 @@
 
         </div>
 
-        <div class="col-lg-3 col-md-12">
-
-            <div class="card">
-
-                <img src="{{ .Site.BaseURL}}img/life.jpg" class="card-img-top" alt="...">
-
-                <div class="card-body p-4 d-flex flex-column justify-content-center align-items-center">
-
-                  <h5 class="card-title text-uppercase pb-3 text-center">{{ i18n "lifeinsurance" }}</h5>
-
-                    {{ if eq .Site.Language.Lang "fr" }}
-          
-                    <a href="{{ .Site.BaseURL }}services/#life" class="btn btn-primary">{{ i18n "learnmore" }}</a>
-                  
-                    {{ else }}
-                  
-                    <a href="{{ .Site.BaseURL }}en/services/#life" class="btn btn-primary">{{ i18n "learnmore" }}</a>
-                  
-                    {{ end }}
-
-                </div>
-                
-              </div>
-
-        </div>
-
     </div>
-
-</section>
-
-<section class="about my-5 container">
-
-    <div class="d-flex flex-column justify-content-center align-items-center">
-
-        <h2 class="about__heading text-center">
-
-            {{ .Params.about__heading }}
-    
-        </h2>
-
-        <p class="about__subheading text-center pt-3">
-
-            {{ .Params.about__subheading }}
-
-        </p>
-    
-        <div class="divider my-5 w-25">
-    
-            <div class="container"></div>
-    
-        </div>
-    
-        <img src="{{ .Site.BaseURL}}img/aboutalan.jpg" class="shadow-lg img-fluid my-5" alt="" data-aos="fade-up" data-aos-duration="500">
-    
-        <div class="d-flex flex-column justify-content-center align-items-center my-5">
-
-            <h2 class="text-center display-5 text-uppercase">
-    
-                {{ .Params.about__heading2 }}
-        
-            </h2>
-    
-            <p class="about__subheading text-center pt-3">
-    
-                {{ .Params.about__subheading2 }}
-    
-            </p>
-        
-            <div class="divider my-5 w-25">
-        
-                <div class="container"></div>
-        
-            </div>
-
-        </div>
-
-        <div class="row g-5">
-
-            <div class="col-lg-4 col-md-12">
-
-                <div class="card border-light mb-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="0">
-
-                    <div class="card-body">
-
-                      <h5 class="card-title">{{ .Params.whychoose1 }}</h5>
-
-                      <p class="card-text">{{ .Params.whychoose1__desc }}</p>
-
-                    </div>
-
-                  </div>
-
-            </div>
-
-            <div class="col-lg-4 col-md-12">
-
-                <div class="card border-light mb-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="500">
-
-                    <div class="card-body">
-
-                      <h5 class="card-title">{{ .Params.whychoose2 }}</h5>
-
-                      <p class="card-text">{{ .Params.whychoose2__desc }}</p>
-
-                    </div>
-
-                  </div>
-
-
-            </div>
-
-            <div class="col-lg-4 col-md-12">
-
-                <div class="card border-light mb-3" data-aos="fade-up" data-aos-duration="500" data-aos-delay="1000">
-
-                    <div class="card-body">
-
-                      <h5 class="card-title">{{ .Params.whychoose3 }}</h5>
-
-                      <p class="card-text">{{ .Params.whychoose3__desc }}</p>
-
-                    </div>
-
-                  </div>
-
-            </div>
-
-        </div>
 
 </section>
 

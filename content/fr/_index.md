@@ -1,29 +1,34 @@
 ---
-title: "Accueil: Alan Stevenson Assurances & Services Financiers"
-description: "Nous offrons à nos clients la meilleure couverture au meilleur prix avec le service pour le prouver. Visitez notre site Web pour obtenir votre devis gratuit directement en ligne."
+title: ""
+description: ""
 layout: home
+video: "https://www.youtube.com/embed/VPX-nD6YrvA"
 
 # Hero Header Section
 
 heading0: "Nous Offrons"
-heading1: "La Meilleure Protection<br>Au Meilleur Prix"
-heading2: "avec un service à la hauteur de vos attentes"
+heading1: "Un expérience unique en microblading et tatouage cosmétique"
+heading2: "Obtenez votre consultation gratuite"
 
-# Solution Section
-
-solutions__heading: "DES SOLUTIONS D’ASSURANCE PERSONNALISÉES"
-
-solutions__subheading: "Peu importe le type de police que vous recherchez, pour votre véhicule ou votre résidence, pour votre entreprise ou encore une assurance-vie, chez Les assurances et services financiers Stevenson, nous trouverons les meilleurs produits pour répondre à vos besoins tout en respectant votre budget."
 
 # About Section
 
-about__heading: "CONCENTREZ-VOUS SUR CE QUI IMPORTE ET LAISSEZ-NOUS VOUS AIDER À LE PROTÉGER "
+about__heading: "Bienvenue Chez Studio Holloway!"
 
-about__subheading: "Chez les assurances et services financiers Stevenson, nous savons que la vie peut parfois être mouvementée. Vous êtes occupé avec ce qui vous importe, votre famille et vos amis, votre santé, votre entreprise, votre vie. Vous aider à protéger ces priorités est notre spécialité. Notre objectif est de vous offrir la paix d’esprit, pour que vous puissiez vous concentrer sur ce qui importe le plus."
+about__subheading: "Notre corps est notre toile. C'est un média pour nos propres histoires; où nous avons été, ce que nous avons fait et ce qui fait que nous sommes qui nous sommes! Mettre en valeur l'extérieur pour qu'il reflète la beauté de ce qui se passe à l'intérieur est une passion que l'artiste et propriétaire Jessica Holloway a toujours aimé poursuivre. Elle encourage ses clients à célébrer leur caractère unique, et s'efforce de les aider à travers ses services de tatouages cosmétiques.<br><br>
+L'équipe de Studio Holloway constitue aussi d'artistes Jaëlle Cyr (tatouage) et Alina Meshadi (microblading). Ensemble, elles offrent une multitudes de services de la plus haute qualité!"
+
 
 about__heading2: "POURQUOI CHOISIR LES ASSURANCES ET SERVICES FINANCIERS STEVENSON?"
 
 about__subheading2: "Nous sommes fiers d’offrir un excellent service à la clientèle basé sur notre connaissance approfondie de l’industrie des assurances, notre expertise en entreprises personnelles, commerciales et spécialisées, notre excellente réputation et, surtout, un engagement soutenu envers ce qui vous importe le plus."
+
+# Solution Section
+services__heading: "Nos Tatouages Cosmétiques"
+
+services__subheading: "Laissez nous vous créer les plus beaux tatouages sur mesure pour vous mettre en valeur!"
+
+
 
 # Why Choose
 whychoose1: "Excellent service à la clientèle"
