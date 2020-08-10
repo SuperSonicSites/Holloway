@@ -30,11 +30,17 @@
   translation: "Sourcils Permanents"
 - id: permanent-lips
   translation: "Rouge à Lèvre Permanent"
+- id: "micropigmentation"
+  translation: "Micropigmentation Capillaire"
+- id: "bodytatoos"
+  translation: "Tatouages corporels"
+- id: "tatoofixes"
+  translation: "Corrections tatouages"
 
 
 # Nav
-- id: freequoteh2
-  translation: "Obtenez Un Devis Gratuit En 24 Heures!"
+- id: freeappointment
+  translation: "Obtenez Votre Consultation Gratuite"
 - id: freequote
   translation: "Devis Gratuit"
 

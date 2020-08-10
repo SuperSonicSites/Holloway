@@ -30,11 +30,16 @@
   translation: "Permanent Eyebrow"
 - id: permanent-lips
   translation: "Permanent Lipstick"
-
+- id: "micropigmentation"
+  translation: "Hair micropigmentation"
+- id: "bodytatoos"
+  translation: "Body Tattoos"
+- id: "tatoofixes"
+  translation: "Tattoo fixes"
 
 # Nav
-- id: freequoteh2
-  translation: "Get A Free Quote In 24hrs!"
+- id: freeappointment
+  translation: "Get Your Free Consultation"
 - id: freequote
   translation: "Free Quote"
 

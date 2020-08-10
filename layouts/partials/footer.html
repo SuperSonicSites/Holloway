@@ -2,15 +2,15 @@
   <div class="container">
     <div class="d-flex flex-column align-items-center py-5">
 
-    <h2 class="footer__heading text-white text-center">{{ i18n "freequoteh2" }}</h2>
+    <h2 class="footer__heading text-white text-center">{{ i18n "freeappointment" }}</h2>
 
     {{ if eq .Site.Language.Lang "fr" }}
 
-    <a href="{{ .Site.BaseURL }}services" class="btn btn-primary my-3" data-aos="zoom-in" data-aos-duration="500">{{ i18n "freequote" }}</a>
+    <a href="{{ .Site.BaseURL }}services" class="btn btn-primary my-3" data-aos="zoom-in" data-aos-duration="500">{{ i18n "appointment" }}</a>
         
     {{ else }}
         
-    <a href="{{ .Site.BaseURL }}en/services" class="btn btn-primary my-3" data-aos="zoom-in" data-aos-duration="500">{{ i18n "freequote" }}</a>
+    <a href="{{ .Site.BaseURL }}en/services" class="btn btn-primary my-3" data-aos="zoom-in" data-aos-duration="500">{{ i18n "appointment" }}</a>
     
     {{ end }}
 
@@ -25,7 +25,7 @@
   <div class="row gx-5 py-5">
 
     <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
-      <img src="{{ .Site.BaseURL }}/{{ .Site.Params.logo }}" alt="{{ .Site.Params.businessname }}" class="logo">
+      <img src="{{ .Site.BaseURL }}img/logo-footer.png" alt="{{ .Site.Params.businessname }}" class="logo">
     </div>
 
     <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
