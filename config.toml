@@ -1,7 +1,7 @@
 baseURL = "/"
 DefaultContentLanguage = "fr"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-googleAnalytics = "UA-122117077-1"
+# googleAnalytics = "UA-122117077-1"
 
 [languages]
 
