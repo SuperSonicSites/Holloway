@@ -4,8 +4,8 @@ background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/s
 background-attachment: fixed;
 background-size: cover;
 
-    .logo {
-        width: 100%;
+    .logo-footer {
+        max-width: 150px;
     }
     h3 {
         text-transform: uppercase;
@@ -14,7 +14,7 @@ background-size: cover;
     }
 
     a:hover {
-        color: white;
+        color: #ebd371;
     }
 }
 .footer .credit p {
@@ -24,12 +24,22 @@ background-size: cover;
     color: $brand-color;
 
     &:hover {
-        color: color;
+        color: #ebd371;
     }
 }
 .footer__address {
     color: $brand-color;
 }
+.fill-brand-footer {
+    fill: white;
+    width: 30px !important;
+    height: 30px !important;
+    margin: 5px;
+}
+.fill-brand-footer:hover {
+    fill: #ebd371;
+}
+
 
 @media screen and (max-width: 768px) {
     .footer .credit p {

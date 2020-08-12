@@ -24,8 +24,8 @@
 
   <div class="row gx-5 py-5">
 
-    <div class="col-lg-3 col-md-6 col-sm-12 mb-5 d-flex flex-column justify-content-center align-items-center">
-      <img src="{{ .Site.BaseURL }}img/logo-footer.png" alt="{{ .Site.Params.businessname }}" class="logo w-75">
+    <div class="col-lg-3 col-md-6 col-sm-12 mb-5 d-flex flex-column justify-content-start align-items-center">
+      <img src="{{ .Site.BaseURL }}img/logo-footer.png" alt="{{ .Site.Params.businessname }}" class="logo-footer">
     </div>
 
     <div class="col-lg-3 col-md-6 col-sm-12 mb-5">
@@ -38,7 +38,7 @@
           <li>
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/services/#auto" class="footer__link text-uppercase">Microblading</a>
+            <a href="{{ .Site.BaseURL }}/microblading" class="footer__link text-uppercase">Microblading</a>
             
                 {{ else }}
             
@@ -53,7 +53,7 @@
             
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/services#home" class="footer__link text-uppercase">{{ i18n "permanent-eyebrow" }}</a>
+            <a href="{{ .Site.BaseURL }}/sourcils-permanents" class="footer__link text-uppercase">{{ i18n "permanent-eyebrow" }}</a>
             
                 {{ else }}
             
@@ -67,7 +67,7 @@
             
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/services#business" class="footer__link text-uppercase">{{ i18n "permanent-lips" }}</a>
+            <a href="{{ .Site.BaseURL }}/levres-permanentes" class="footer__link text-uppercase">{{ i18n "permanent-lips" }}</a>
             
                 {{ else }}
             
@@ -81,7 +81,7 @@
             
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/services/#life" class="footer__link text-uppercase">Intralash & Eyeliner</a>
+            <a href="{{ .Site.BaseURL }}/eyeliner-et-intralash-permanent" class="footer__link text-uppercase">Intralash & Eyeliner</a>
             
                 {{ else }}
             
@@ -97,7 +97,7 @@
 
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/services#life" class="footer__link text-uppercase">{{ i18n "micropigmentation" }}</a>
+            <a href="{{ .Site.BaseURL }}/micropigmentation-capillaire" class="footer__link text-uppercase">{{ i18n "micropigmentation" }}</a>
             
                 {{ else }}
             
@@ -110,7 +110,7 @@
           <li>
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/services#life" class="footer__link text-uppercase">{{ i18n "tatoofixes" }}</a>
+            <a href="{{ .Site.BaseURL }}corrections-tatouages-cosmetiques" class="footer__link text-uppercase">{{ i18n "tatoofixes" }}</a>
             
                 {{ else }}
             
@@ -123,7 +123,7 @@
           <li>
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/services#life" class="footer__link text-uppercase">{{ i18n "bodytatoos" }}</a>
+            <a href="{{ .Site.BaseURL }}/tatouages-corporels" class="footer__link text-uppercase">{{ i18n "bodytatoos" }}</a>
             
                 {{ else }}
             
@@ -187,8 +187,23 @@
         J5B 2E5
 
       </address>      
+      <a href="https://www.facebook.com/studioholloway/" target="_blank" rel="nofollow">
+      <svg class="fill-brand-footer">
+        <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#facebook"></use>
+      </svg>
+      </a>
 
+      <a href="https://www.instagram.com/studioholloway/" target="_blank" rel="nofollow">
+      <svg class="fill-brand-footer">
+        <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#instagram"></use>
+      </svg>
+      </a>
 
+      <a href="https://www.pinterest.ca/studioholloway/" target="_blank" rel="nofollow">
+      <svg class="fill-brand-footer">
+        <use xlink:href="{{ $.Site.BaseURL }}icons/brands.svg#pinterest"></use>
+      </svg>
+    </a>
     </div>
 
   </div>

@@ -7,7 +7,7 @@ slug: eyeliner-et-intralash-permanent
 
 img: ""
 vid: true
-video: "https://www.youtube.com/embed/d28rcIMWzuQ?vq=hd1080&rel=0&color=white"
+videoID: "d28rcIMWzuQ"
 price: "$324.99"
 touchup: true # touch up included? true will display
 

@@ -11,9 +11,11 @@
             
                 {{ if .Params.vid }}
                 
-                <div class="videoWrapper shadow-lg">
-                    <iframe src="{{ .Params.video }}" width="560" height="315" frameborder="0"></iframe>
-                    </div>
+                <div class="youtube shadow-lg" data-embed="{{ .Params.VideoID }}">
+                    <!-- (2) the "play" button -->
+                    <div class="play-button"></div>       
+            
+                </div>
 
                 {{ else }}
 

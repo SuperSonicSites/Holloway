@@ -7,7 +7,7 @@ slug: levres-permanentes
 
 img: "permanent-lipstick.jpg"
 vid: false
-video: "https://www.youtube.com/embed/PnlaGX9Iamo?vq=hd1080&rel=0&color=white"
+videoID: "PnlaGX9Iamo"
 price: "$499.99"
 touchup: true # touch up included? true will display
 

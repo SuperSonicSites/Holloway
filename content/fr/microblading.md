@@ -7,7 +7,7 @@ slug: microblading
 
 img: "microblading.jpg"
 vid: true
-video: "https://www.youtube.com/embed/PnlaGX9Iamo?vq=hd1080&rel=0&color=white"
+videoID: "PnlaGX9Iamo"
 price: "$299"
 touchup: true # touch up included? true will display
 

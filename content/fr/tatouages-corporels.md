@@ -7,7 +7,7 @@ slug: tatouages-corporels
 
 img: "tatouage.jpg"
 vid: false
-video: "https://www.youtube.com/embed/krgeoxmnaHU?vq=hd1080&rel=0&color=white"
+videoID: "krgeoxmnaHU"
 price: "Sur Demande"
 touchup: false # touch up included? true will display
 
