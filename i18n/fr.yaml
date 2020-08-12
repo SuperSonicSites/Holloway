@@ -7,7 +7,17 @@
 - id: testimonials
   translation: "Témoignages"
 - id: faq
-  translation: "Questions Fréquemment Posées"
+  translation: "Vous avez des questions?"
+- id: answer
+  translation: "Votre question pourrait être ci-dessous..."
+- id: paymentmethod
+  translation: "Moyens de paiement"
+- id: price
+  translation: "Prix"
+- id: startingat
+  translation: "À partir de..."
+- id: touchup
+  translation: "Retouches incluse."
 - id: appointment
   translation: "Prendre Rendez-Vous"
 - id: learnmore

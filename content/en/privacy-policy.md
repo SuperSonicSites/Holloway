@@ -7,7 +7,7 @@ bannerh1: "Privacy Policy"
 
 Effective Date: May 5, 2020
 
-Alan Stevenson Financial Services Inc. ("we", "us" or "our") operates the website (hereinafter referred to as the "service").
+Studio Holloway ("we", "us" or "our") operates the website (hereinafter referred to as the "service").
 
 This page informs you of our policies regarding the collection, use and disclosure of personal data when you use our service and the choices you have associated with this data.
 
@@ -17,7 +17,7 @@ We use your data to provide and improve the service. By using our services, you 
 -----------
 
 - Service \
-    The service is the website operated by Alan Stevenson Financial Services Inc.
+    The service is the website operated by Studio Holloway
 -   Personal data\
     Personal data designates data relating to a living person which can be identified from this data (or from these and other information in our possession or likely to become so).
 - Use of data \
@@ -62,7 +62,7 @@ Examples of cookies we use:
 ### USE OF DATA
 -----------------------
 
-Alan Stevenson Financial Services Inc. uses the data collected for different purposes:
+Studio Holloway uses the data collected for different purposes:
 
 - Provide and maintain our service
 - To notify you of changes to our service
@@ -82,17 +82,17 @@ If you live outside of Canada and choose to provide information to us, please no
 
 Your consent to this privacy policy, followed by your submission of such information, represents your agreement to this transfer.
 
-Alan Stevenson Financial Services Inc. will take all measures reasonably necessary to guarantee the secure processing of your data, in accordance with this privacy policy, and no transfer of your personal data will be made to an organization or a country, unless adequate controls are in place, including security of your data and other personal information.
+Studio Holloway will take all measures reasonably necessary to guarantee the secure processing of your data, in accordance with this privacy policy, and no transfer of your personal data will be made to an organization or a country, unless adequate controls are in place, including security of your data and other personal information.
 
 ### DISCLOSURE OF DATA
 -----------------------
 
 ### LEGAL REQUIREMENTS
 
-Alan Stevenson Financial Services Inc. may disclose your personal data in good faith believing that such action is necessary to:
+Studio Holloway may disclose your personal data in good faith believing that such action is necessary to:
 
 - Comply with a legal obligation
-- To protect and defend the rights or property of Alan Stevenson Financial Services Inc.
+- To protect and defend the rights or property of Studio Holloway
 - To prevent or investigate possible wrongful acts related to the Service
 - To protect the personal safety of service users or the public
 - Protect against legal liability
@@ -117,7 +117,7 @@ We may use third-party service providers to monitor and analyze the use of our s
 
 ### BEHAVIORAL REMARKETING
 
-Alan Stevenson Financial Services Inc. uses remarketing services to advertise on third party websites after you visit our service. We and our third-party suppliers use cookies to inform, optimize, and serve ads based on your previous visits to our Service.
+Studio Holloway uses remarketing services to advertise on third party websites after you visit our service. We and our third-party suppliers use cookies to inform, optimize, and serve ads based on your previous visits to our Service.
 
 - Facebook - Facebook's remarketing service is provided by Facebook Inc. To learn more about Facebook interest-based advertising, visit the following page: https://www.facebook.com/help/164968693837950 To opt out of Facebook’s interest-based ads, follow the instructions provided by Facebook: https://www.facebook.com/help/568137493302217 Facebook adheres to the principles of self-regulatory online behavioral advertising established by Digital Alliance. You can also unsubscribe from Facebook and other participating companies through the Digital Advertising Alliance in the United States http://www.aboutads.info/choices/, the Digital Advertising Alliance in Canada http: // youradchoices. ca / or European Alliance for Interactive Digital Advertising in Europe http://www.youronlinechoices.eu/, or unsubscribe using the settings on your mobile device. For more information on Facebook's privacy practices, please see Facebook's privacy policy: https://www.facebook.com/privacy/explanation
 
@@ -147,4 +147,4 @@ We recommend that you periodically review this privacy policy to keep yourself i
 
 If you have any questions about this privacy policy, please contact us:
 
-- By email: alan@alanstevenson.ca
+- By email: info@studioholloway.com

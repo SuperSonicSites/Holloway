@@ -32,14 +32,9 @@ googleAnalytics = "UA-122117077-1"
         weight = 4
 
         [[languages.fr.menu.main]]
-        name = "Blog"
-        url = "/blog/"
+        name = "Contact"
+        url = "/contact/"
         weight = 5
-
-        [[languages.fr.menu.main]]
-        name = "Prendre Rendez-vous"
-        url = "/rendez-vous/"
-        weight = 6
 
     [languages.en]
     languageCode = "en"
@@ -68,14 +63,9 @@ googleAnalytics = "UA-122117077-1"
         weight = 4
 
         [[languages.en.menu.main]]
-        name = "Blog"
-        url = "/blog/"
+        name = "Contact"
+        url = "/contact/"
         weight = 5
-
-        [[languages.en.menu.main]]
-        name = "Appointment"
-        url = "/appointment/"
-        weight = 6
 
 [params]
     # Schema Information

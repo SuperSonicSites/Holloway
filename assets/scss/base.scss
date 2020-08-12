@@ -35,6 +35,9 @@ p {
     color: #888;
     font-size: 1.2rem;
 }
-svg {
+.fill-brand {
     fill: $brand-color;
+    width: 50px !important;
+    height: 50px !important;
+    margin: 5px;
 }

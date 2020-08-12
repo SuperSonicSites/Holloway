@@ -7,7 +7,7 @@ layout: privacy-policy
 
 Date d'entrée en vigueur: 5 Mai 2020
 
-Alan Stevenson Financial Services Inc. exploite le site Web https://www.alanstevenson.ca (ci-après dénommé le "service").
+Studio Holloway exploite le site Web https://www.studioholloway.com (ci-après dénommé le "service").
 
 Cette page vous informe de nos politiques en matière de collecte, d'utilisation et de divulgation de données personnelles lorsque vous utilisez notre service et des choix que vous avez associés à ces données.
 
@@ -17,7 +17,7 @@ Nous utilisons vos données pour fournir et améliorer le service. En utilisant 
 -----------
 
 -   Service\
-    Le service est le site Web https://www.alanstevenson.ca exploité par Alan Stevenson Financial Services Inc..
+    Le service est le site Web https://www.studioholloway.com exploité par Studio Holloway.
 -   Données personnelles\
     Les données personnelles désignent des données relatives à une personne vivante qui peuvent être identifiées à partir de ces données (ou de celles-ci et d'autres informations en notre possession ou susceptibles de le devenir).
 -   Utilisation des donnés\
@@ -62,7 +62,7 @@ Exemples de cookies que nous utilisons:
 ### UTILISATION DES DONNÉES
 -----------------------
 
-Alan Stevenson Financial Services Inc. utilise les données collectées à différentes fins:
+Studio Holloway utilise les données collectées à différentes fins:
 
 -   Fournir et maintenir notre service
 -   Pour vous avertir des changements de notre service
@@ -82,17 +82,17 @@ Si vous résidez à l'extérieur du Canada et que vous choisissez de nous fourni
 
 Votre consentement à cette politique de confidentialité, suivi de votre soumission de telles informations, représente votre accord à ce transfert.
 
-Alan Stevenson Financial Services Inc. prendra toutes les mesures raisonnablement nécessaires pour garantir le traitement sécurisé de vos données, conformément à la présente politique de confidentialité, et aucun transfert de vos données personnelles ne sera effectué vers une organisation ou un pays, à moins que des contrôles adéquats soient en place, notamment sécurité de vos données et autres informations personnelles.
+Studio Holloway prendra toutes les mesures raisonnablement nécessaires pour garantir le traitement sécurisé de vos données, conformément à la présente politique de confidentialité, et aucun transfert de vos données personnelles ne sera effectué vers une organisation ou un pays, à moins que des contrôles adéquats soient en place, notamment sécurité de vos données et autres informations personnelles.
 
 ### DIVULGATION DES DONNÉES
 -----------------------
 
 ### EXIGENCES LÉGALES
 
-Alan Stevenson Financial Services Inc. peut divulguer vos données personnelles en croyant de bonne foi qu'une telle action est nécessaire pour:
+Studio Holloway peut divulguer vos données personnelles en croyant de bonne foi qu'une telle action est nécessaire pour:
 
 -   Se conformer à une obligation légale
--   Pour protéger et défendre les droits ou la propriété de Alan Stevenson Financial Services Inc.
+-   Pour protéger et défendre les droits ou la propriété de Studio Holloway
 -   Pour prévenir ou étudier les éventuels actes fautifs liés au Service
 -   Pour protéger la sécurité personnelle des utilisateurs du service ou du public
 -   Protéger contre la responsabilité légale
@@ -117,7 +117,7 @@ Nous pouvons utiliser des fournisseurs de services tiers pour surveiller et anal
 
 ### REMARKETING COMPORTEMENTAL
 
-Alan Stevenson Financial Services Inc. utilise des services de remarketing pour faire de la publicité sur des sites Web tiers après votre visite de notre service. Nous et nos fournisseurs tiers utilisons des cookies pour informer, optimiser et diffuser des annonces en fonction de vos visites précédentes à notre Service.
+Studio Holloway utilise des services de remarketing pour faire de la publicité sur des sites Web tiers après votre visite de notre service. Nous et nos fournisseurs tiers utilisons des cookies pour informer, optimiser et diffuser des annonces en fonction de vos visites précédentes à notre Service.
 
 -   Facebook - Le service de remarketing de Facebook est fourni par Facebook Inc. Pour en savoir plus sur la publicité ciblée par centres d'intérêt de Facebook, visitez la page suivante: https://www.facebook.com/help/164968693837950 Pour désactiver la diffusion d'annonces ciblées par centres d'intérêt de Facebook , suivez les instructions fournies par Facebook: https://www.facebook.com/help/568137493302217 Facebook adhère aux principes d'autorégulation de la publicité comportementale en ligne établis par Digital Alliance. Vous pouvez également vous désinscrire de Facebook et des autres entreprises participantes par le biais de la Digital Advertising Alliance aux États-Unis http://www.aboutads.info/choices/, de la Digital Advertising Alliance au Canada http://youradchoices.ca/ ou de Alliance européenne de la publicité numérique interactive en Europe http://www.youronlinechoices.eu/, ou désinscription à l'aide des paramètres de votre appareil mobile. Pour plus d'informations sur les pratiques de confidentialité de Facebook, veuillez consulter la politique de confidentialité de Facebook: https://www.facebook.com/privacy/explanation
 
@@ -149,4 +149,4 @@ Nous vous conseillons de consulter périodiquement cette politique de confidenti
 
 Si vous avez des questions sur cette politique de confidentialité, veuillez nous contacter:
 
--   Par email: alan@alanstevenson.ca
+-   Par email: info@studioholloway.com

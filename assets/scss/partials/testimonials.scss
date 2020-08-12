@@ -1,8 +1,9 @@
 .carousel-inner {
-    height: 400px;
+    height: 340px;
 
     p {
         color: white;
+        font-size: 14px;
     }
 
     h3 {
@@ -10,4 +11,9 @@
         text-transform: uppercase;
         font-weight: 700;
     }
+}
+@media (max-width: 768px) {
+    .carousel-inner {
+        height: 420px;
+  }
 }

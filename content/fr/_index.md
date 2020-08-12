@@ -1,6 +1,6 @@
 ---
-title: ""
-description: ""
+title: "Salon de Maquillage Permanent et Microblading"
+description: "Bienvenue au Studio Holloway. Nous sommes un salon de maquillage permanent et microblading situé sur la Rive Sud de Montreal. Visitez notre site pour plus de détails."
 layout: home
 video: "https://www.youtube.com/embed/VPX-nD6YrvA"
 
@@ -28,27 +28,21 @@ services__heading: "Nos Tatouages Cosmétiques"
 
 services__subheading: "Laissez nous vous créer les plus beaux tatouages sur mesure pour vous mettre en valeur!"
 
+# Testimonials
 
+testimonial1: "Elaine Godin"
+testimonial1__desc: "Mon projet d’avoir des nouveaux sourcils s’est avéré être un grand succès…et ce grâce à toi. J’ai beaucoup apprécié ton soucis du détail et toutes ces heures que tu as passé à mes côtés pour redéfinir mes nouveaux sourcils…Encore merci, ils sont magnifiques!"
 
-# Why Choose
-whychoose1: "Excellent service à la clientèle"
-whychoose1__desc: "Nous prenons le temps d’écouter, de renseigner et de collaborer avec nos clients car nous voulons que vous preniez une décision éclairée concernant les meilleurs produits qui répondent à vos besoins tout en respectant votre budget. Et nous ne nous arrêtons pas là. Nous effectuons le suivi pour nos clients et nous serons là pour vous soutenir si jamais, et lorsque vous aurez besoin de nous."
+testimonial2: "Odette Scully"
+testimonial2__desc: "Service impeccable !! Personne très fiable et à l’écoute de nos besoins et intérêts, incluant nos peurs. Jessica prends de bien expliquer et valider avec nous. Je n’ai que des éloges des différents services (tattoo, semi-permanent) Elle a une expression créative exceptionnelle et est très attachante dans son professionnalisme."
 
-whychoose3: "Un partenariat à votre avantage"
-whychoose3__desc: "Nous comprenons l’importance d’établir des relations basées sur le respect, la confiance et la crédibilité. Au fil des années, nous avons développé un solide réseau de partenaires en assurances et dans les industries qui y sont associées, et nous avons accès aux produits qui sont les meilleurs et les plus variés sur le marché."
+testimonial3: "Joumala Belqziz"
+testimonial3__desc: "Excellent service. Je recommande à 100 %. J’étais intéressée par le permanent mais je n’étais pas très sûre de moi. Jessica a pris le temps de m’expliquer, et j’ai sauté le pas. Le résultat est tellement naturel!!! Merci Jess!!!"
 
-whychoose2: "Connaissance approfondie de l’industrie"
-whychoose2__desc: "Aucune industrie n’est statique et les assurances n’y font pas exception. Chez Les assurances et services financiers Stevenson, nous nous assurons de conserver une longueur d’avance sur le marché, les assurances, les innovations et tendances technologiques, les nouveaux produits et services, ou les changements aux normes et à la réglementation. Nous connaissons tous les aspects de notre industrie et nous utilisons ces connaissances pour élaborer chacune des solutions que nous offrons à nos clients."
+testimonial4: "Brigitte Eysseric-Reynaud"
+testimonial4__desc: "Très belle expérience avec Jessica. Elle maîtrise parfaitement son art (car c’est une véritable artiste) tout en mettant en avant la sécurité et l’information au client. Très heureuse aussi d’avoir participé au choix des options et d’avoir été si bien conseillée. En plus, ça fait du bien au moral! Merci, merci, merci!"
 
-testimonials__heading: "Témoignage"
-
-testimonial1: "Renaud Gagne"
-testimonial1__desc: "Alan est un courtier incroyable et je le recommende à tout le monde."
-
-testimonial2: "Emily"
-testimonial2__desc: "Alan m'a tout de suite mis à l'aise et j'ai vite eu l'impression d'être assis avec un ami autour d'un café."
-
-testimonial3:
-testimonial3__desc:
+testimonial5: "Amilie Tétrault"
+testimonial5__desc: "Service super professionnel et personnalisé! Très à l’écoute des besoins et des attentes! J’ai visitée beaucoup d’endroit avant de me faire tatouer les sourcils de façon permanante et je ne regrette absolument pas d’avoir choisis le studio holloway! Vous ne serais pas déçu."
 
 ---

@@ -59,7 +59,6 @@
        
             <div class="divider my-5 w-25">
     
-    
                 <div class="container"></div>
     
             </div>
@@ -92,7 +91,7 @@
 
             <div class="card">
 
-                <img src="{{ .Site.BaseURL}}img/microblading.jpg" class="card-img-top" alt="...">
+                <img src="{{ .Site.BaseURL}}img/microblading.jpg" class="card-img-top" alt="Photo Microblading">
 
                 <div class="card-body p-4 d-flex flex-column justify-content-center align-items-center">
 
@@ -100,11 +99,11 @@
 
                   {{ if eq .Site.Language.Lang "fr" }}
           
-                  <a href="{{ .Site.BaseURL }}services/#microblading" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL }}microblading" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ else }}
                 
-                  <a href="{{ .Site.BaseURL }}en/services/#microblading" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL }}en/microblading" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ end }}
 
@@ -126,7 +125,7 @@
 
                   {{ if eq .Site.Language.Lang "fr" }}
           
-                  <a href="{{ .Site.BaseURL }}services/#car" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL }}sourcils-permanents/" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ else }}
                 
@@ -153,7 +152,7 @@
 
                   {{ if eq .Site.Language.Lang "fr" }}
           
-                  <a href="{{ .Site.BaseURL }}services/#business" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL }}levres-permanentes" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ else }}
                 
@@ -179,8 +178,8 @@
                   <h5 class="card-title text-uppercase pb-3 text-center">Intralash & Eyeliner</h5>
 
                     {{ if eq .Site.Language.Lang "fr" }}
-          
-                    <a href="{{ .Site.BaseURL }}services/#life" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                    
+                    <a href="{{ .Site.BaseURL }}eyeliner-et-intralash-permanent/" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                   
                     {{ else }}
                   
@@ -210,7 +209,7 @@
 
                   {{ if eq .Site.Language.Lang "fr" }}
           
-                  <a href="{{ .Site.BaseURL }}services/#home" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL }}micropigmentation-capillaire" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ else }}
                 
@@ -236,7 +235,7 @@
 
                   {{ if eq .Site.Language.Lang "fr" }}
           
-                  <a href="{{ .Site.BaseURL }}services/#car" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL }}corrections-tatouages-cosmetiques" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ else }}
                 
@@ -263,7 +262,7 @@
 
                   {{ if eq .Site.Language.Lang "fr" }}
           
-                  <a href="{{ .Site.BaseURL }}services/#business" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL }}tatouages-corporels" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ else }}
                 
@@ -282,81 +281,6 @@
 
 </section>
 
-<section class="bg-brand">
-
-    <div class="py-5"></div>
-
-
-    <div class="container">
-
-        <div class="d-flex flex-column justify-content-center align-items-center my-5">
-
-            <h2 class="text-center display-5 text-uppercase text-white">
-    
-                {{ .Params.testimonials__heading }}
-        
-            </h2>
-
-        </div>
-
-        <div id="carouselExampleIndicators" class="carousel slide my-5 py-5" data-ride="carousel">
-
-            <ol class="carousel-indicators">
-
-                <li data-target="#carouselExampleIndicators" class="bg-dark my-5 py-1" data-slide-to="0" class="active"></li>
-
-                <li data-target="#carouselExampleIndicators" class="bg-dark my-5 py-1" data-slide-to="1"></li>
-
-            </ol>
-
-            <div class="carousel-inner">
-
-                <div class="carousel-item active text-center py-8">
-
-                    <img src="{{ .Site.BaseURL}}img/testimonial2.jpg" alt="Image of the person giving a testimonial" class="img-fluid img-thumbnail testimonial-img m-auto mb-2">
-
-                    <h3 class="py-2">{{.Params.testimonial1}}</h3>
-
-                    <p class="text-center w-75 m-auto">{{.Params.testimonial1__desc}}</p>
-
-                </div>
-
-                <div class="carousel-item text-center py-8">
-
-                    <img src="{{ .Site.BaseURL}}img/testimonial1.jpg" alt="Image of the person giving a testimonial" class="img-fluid img-thumbnail testimonial-img m-auto mb-2">
-
-                    <h3 class="py-2">{{.Params.testimonial2}}</h3>
-    
-                    <p class="text-center w-75 m-auto">{{.Params.testimonial2__desc}}</p>
-  
-                </div>
-  
-            </div>
-    
-            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
-    
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    
-                <span class="sr-only">Previous</span>
-    
-            </a>
-    
-            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
-    
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    
-                <span class="sr-only">Next</span>
-    
-            </a>
-    
-        </div>
-  
-    </div>
-  
-    <div class="py-3"></div>
-
-</div>
-
-</section>
+{{- partial "testimonials.html" . }}
 
 {{ end }}

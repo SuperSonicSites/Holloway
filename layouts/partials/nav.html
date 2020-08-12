@@ -4,14 +4,67 @@
     <a class="navbar-brand" href="{{ .Site.BaseURL | relLangURL }}"><img src="{{ $.Site.BaseURL }}{{ .Site.Params.logo }}" alt="{{ .Site.Params.businessname }}" class="nav-logo"></a>
         
     <div class="desktopmenu d-flex align-items-center justify-content-center text-uppercase">
-         
-          {{ range .Site.Menus.main -}}
+      <ul class="navbar-nav">
+      {{ if eq .Site.Language.Lang "fr" }}
           
-          <a class="nav-item nav-link uppercase" href="{{ .URL | relLangURL }}">{{ .Name }}</a>
+      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}">Accueil</a></li>
+     
+      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}a-propos">À Propos</a></li>
+     
+      <li class="nav-item dropdown mt-1">
+        
+        <a class="nav-link uppercase dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">Services</a>
+      
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           
-          {{ end }}
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}microblading">Microblading</a></li>
           
-          <div class="translate">
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}sourcils-permanents">Sourcils Permanents</a></li>
+          
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}levres-permanentes">Lèvres Permanents</a></li>
+
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}eyeliner-et-intralash-permanent">Eyeliner & Intralash</a></li>
+
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}micropigmentation-capillaire">Micropigmentation Capillaire</a></li>
+
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}corrections-tatouages-cosmetiques">Corrections Tatouages</a></li>
+
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}tatouages-corporels">Tatouages Corporels</a></li>
+        </ul>
+      
+      </li>
+     
+      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}contact">Contact</a></li>
+     
+      <div class="translate">
+     
+        <a href="{{ .Site.BaseURL }}rendez-vous" class="">Rendez-Vous</a>
+    
+      </div>
+    
+      {{ else }}
+    
+      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}">Home</a></li>
+     
+      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}a-propos">About Us</a></li>
+     
+      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}services">Services</a></li>
+     
+      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}faq">FAQ</a></li>
+     
+      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}contact">Contact</a></li>
+     
+      <div class="translate mt-1">
+     
+        <a href="{{ .Site.BaseURL | relLangURL }}appointment" class="">Appointment</a>
+    
+      </div>
+    
+      {{ end }}
+    </ul>   
+
+          
+          <div class="">
           
             {{ if .IsTranslated }}
           

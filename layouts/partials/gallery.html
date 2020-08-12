@@ -1,0 +1,120 @@
+<div class="gallery">
+
+
+    <div class="row g-3 text-center text-lg-left">
+
+        <div class="col-lg-3 col-md-4 col-6 img-gallery">
+         
+            <a href="{{ $.Site.BaseURL}}img/gallery/gallery_img1.jpg" data-toggle="lightbox" data-gallery="gallery" class="d-block">
+                
+                <img class="img-fluid img-thumbnail" src="{{ $.Site.BaseURL}}img/gallery/gallery_img1.jpg" alt="Portfolio image">
+            
+            </a>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 img-gallery">
+
+            <a href="{{ $.Site.BaseURL}}img/gallery/gallery_img2.jpg" data-toggle="lightbox" data-gallery="gallery" class="d-block">
+                
+                <img class="img-fluid img-thumbnail" src="{{ $.Site.BaseURL}}img/gallery/gallery_img2.jpg" alt="Portfolio image">
+            
+            </a>
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 img-gallery">
+          
+            <a href="{{ $.Site.BaseURL}}img/gallery/gallery_img3.jpg" data-toggle="lightbox" data-gallery="gallery" class="d-block">
+                
+                <img class="img-fluid img-thumbnail" src="{{ $.Site.BaseURL}}img/gallery/gallery_img3.jpg" alt="Portfolio image">
+            
+            </a>
+            
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 img-gallery">
+          
+            <a href="{{ $.Site.BaseURL}}img/gallery/gallery_img4.jpg" data-toggle="lightbox" data-gallery="gallery" class="d-block">
+                
+                <img class="img-fluid img-thumbnail" src="{{ $.Site.BaseURL}}img/gallery/gallery_img4.jpg" alt="Portfolio image">
+            
+            </a>
+
+        </div>
+        <div class="col-lg-3 col-md-4 col-6 img-gallery">
+          
+            <a href="{{ $.Site.BaseURL}}img/gallery/gallery_img5.jpg" data-toggle="lightbox" data-gallery="gallery" class="d-block">
+                
+                <img class="img-fluid img-thumbnail" src="{{ $.Site.BaseURL}}img/gallery/gallery_img5.jpg" alt="Portfolio image">
+            
+            </a>
+
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6 img-gallery">
+          
+            <a href="{{ $.Site.BaseURL}}img/gallery/gallery_img6.jpg" data-toggle="lightbox" data-gallery="gallery" class="d-block">
+                
+                <img class="img-fluid img-fluid img-thumbnail" src="{{ $.Site.BaseURL}}img/gallery/gallery_img6.jpg" alt="Portfolio image">
+            
+            </a>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6 img-gallery">
+          
+            <a href="{{ $.Site.BaseURL}}img/gallery/gallery_img7.jpg" data-toggle="lightbox" data-gallery="gallery" class="d-block">
+                
+                <img class="img-fluid img-fluid img-thumbnail" src="{{ $.Site.BaseURL}}img/gallery/gallery_img7.jpg" alt="Portfolio image">
+            
+            </a>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6 img-gallery">
+          
+            <a href="{{ $.Site.BaseURL}}img/gallery/gallery_img9.jpg" data-toggle="lightbox" data-gallery="gallery" class="d-block">
+                
+                <img class="img-fluid img-fluid img-thumbnail" src="{{ $.Site.BaseURL}}img/gallery/gallery_img9.jpg" alt="Portfolio image">
+            
+            </a>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6 img-gallery">
+          
+            <a href="{{ $.Site.BaseURL}}img/gallery/gallery_img10.jpg" data-toggle="lightbox" data-gallery="gallery" class="d-block">
+                
+                <img class="img-fluid img-fluid img-thumbnail" src="{{ $.Site.BaseURL}}img/gallery/gallery_img10.jpg" alt="Portfolio image">
+            
+            </a>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6 img-gallery">
+          
+            <a href="{{ $.Site.BaseURL}}img/gallery/gallery_img11.jpg" data-toggle="lightbox" data-gallery="gallery" class="d-block">
+                
+                <img class="img-fluid img-fluid img-thumbnail" src="{{ $.Site.BaseURL}}img/gallery/gallery_img11.jpg" alt="Portfolio image">
+            
+            </a>
+
+        </div>
+
+        <div class="col-lg-3 col-md-4 col-6 img-gallery">
+          
+            <a href="{{ $.Site.BaseURL}}img/gallery/gallery_img12.jpg" data-toggle="lightbox" data-gallery="gallery" class="d-block">
+                
+                <img class="img-fluid img-fluid img-thumbnail" src="{{ $.Site.BaseURL}}img/gallery/gallery_img12.jpg" alt="Portfolio image">
+            
+            </a>
+
+        </div>
+        
+      </div>
+</div>
+{{ with .Resources.ByType "image" }}
+{{ range . }}
+{{ .Name }}
+{{ end }}
+{{ end }}
+
+
