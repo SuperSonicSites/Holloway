@@ -2,7 +2,7 @@
 title: "Salon de Maquillage Permanent et Microblading"
 description: "Bienvenue au Studio Holloway. Nous sommes un salon de maquillage permanent et microblading situé sur la Rive Sud de Montreal. Visitez notre site pour plus de détails."
 layout: home
-video: "https://www.youtube.com/embed/VPX-nD6YrvA"
+videoID: "VPX-nD6YrvA"
 
 # Hero Header Section
 
