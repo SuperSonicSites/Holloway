@@ -7,11 +7,11 @@
       <ul class="navbar-nav">
       {{ if eq .Site.Language.Lang "fr" }}
           
-      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}">Accueil</a></li>
+      <li class="nav-item mt-2"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}">Accueil</a></li>
      
-      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}a-propos">À Propos</a></li>
+      <li class="nav-item mt-2"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}a-propos">À Propos</a></li>
      
-      <li class="nav-item dropdown mt-1">
+      <li class="nav-item dropdown mt-2">
         
         <a class="nav-link uppercase dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">Services</a>
       
@@ -34,9 +34,9 @@
       
       </li>
      
-      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}contact">Contact</a></li>
+      <li class="nav-item mt-2"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}contact">Contact</a></li>
      
-      <div class="translate">
+      <div class="btn btn-primary translate">
      
         <a href="{{ .Site.BaseURL }}rendez-vous" class="">Rendez-Vous</a>
     
@@ -44,19 +44,38 @@
     
       {{ else }}
     
-      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}">Home</a></li>
+      <li class="nav-item mt-2"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}en">Home</a></li>
      
-      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}a-propos">About Us</a></li>
+      <li class="nav-item mt-2"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}en/about-us">About Us</a></li>
      
-      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}services">Services</a></li>
+      <li class="nav-item dropdown mt-2">
+        
+        <a class="nav-link uppercase dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">Services</a>
+      
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+          
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}en/microblading">Microblading</a></li>
+          
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}en/permanent-eyebrows">Permanent Eyebrows</a></li>
+          
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}en/permanent-lipstick">Permanent Lipstick</a></li>
+
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}en/permanent-eyeliner-et-intralash">Eyeliner & Intralash</a></li>
+
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}en/scalp-micropigmentation">Scalp Micropigmentation</a></li>
+
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}en/cosmetic-tattoo-corrections">Tattoo Corrections</a></li>
+
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}en/body-tatoos">Body Tattoos</a></li>
+        </ul>
+      
+      </li>
      
-      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}faq">FAQ</a></li>
-     
-      <li class="nav-item mt-1"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}contact">Contact</a></li>
+      <li class="nav-item mt-2"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}en/contact">Contact</a></li>
      
       <div class="translate mt-1">
      
-        <a href="{{ .Site.BaseURL | relLangURL }}appointment" class="">Appointment</a>
+        <a href="{{ .Site.BaseURL | relLangURL }}en/appointment" class="">Appointment</a>
     
       </div>
     

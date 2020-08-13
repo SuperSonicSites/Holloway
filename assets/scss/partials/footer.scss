@@ -13,13 +13,13 @@ background-size: cover;
         color: white;
     }
 
-    a:hover {
+    .footer__link:hover {
         color: #ebd371;
     }
 }
 .footer .credit p {
     margin: 0rem !important;
-}
+} 
 .footer .credit a {
     color: $brand-color;
 

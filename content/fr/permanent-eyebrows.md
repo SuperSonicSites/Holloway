@@ -1,17 +1,17 @@
 ---
-title: "Service Tatouage Permanent des Lèvres"
-bannerh1: "Lèvres Permanentes"
-description: "Embellissez vos lèvres avec notre service de tatouage permanent des lèvres. Visitez nous pour une consultation gratuite."
+title: "Service Tatouage Permanent des Sourcils"
+bannerh1: "Sourcils Permanents"
+description: "Restructurez et embellissez vos sourcils avec notre service de tatouage permanent des sourcils. Visitez nous pour une consultation gratuite."
 layout: service
-slug: levres-permanentes
+slug: sourcils-permanents
 
-img: "permanent-lipstick.jpg"
-vid: false
+img: "microblading.jpg"
+vid: true
 videoID: "PnlaGX9Iamo"
 price: "$499.99"
 touchup: true # touch up included? true will display
 
-service_desc: "Le microblading embellit la forme de vos sourcils tout en respectant l'harmonie de votre visage et la carnation de votre peau. Nous produisons l'apparence de vrais poils, en implantant manuellement un pigment de couleur dans l'épiderme. Nous utilisons une lame unique et stérile, créant ainsi une apparence très naturelle à vos sourcils. Chaque prestation de microblading est unique."
+service_desc: "Le maquillage permanent des sourcils est une autre option que le microblading, qui nous donne le choix de travailler une multitude de styles, tels que: le poil par poil, l'ombragé, le pointillisme, ou même une combinaison de plusieurs styles. Le tatouage permanent des sourcils, possède une durée de vie plus longue que le microblading. Cela est dû au fait que le pigment soit implanté dans la peau à l'aide d'une machine."
 
 # FAQ
 

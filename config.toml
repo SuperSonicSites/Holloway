@@ -1,4 +1,4 @@
-baseURL = "/"
+baseURL = "https://studioholloway.netlify.app/"
 DefaultContentLanguage = "fr"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 # googleAnalytics = "UA-122117077-1"
@@ -49,12 +49,12 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     
         [[languages.en.menu.main]]
         name = "About"
-        url = "/about/"
+        url = "/about-us/"
         weight = 2
 
         [[languages.en.menu.main]]
         name = "Services"
-        url = "/services/"
+        url = "/#services"
         weight = 3
 
         [[languages.en.menu.main]]

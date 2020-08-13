@@ -1,17 +1,17 @@
 ---
-title: "Service Tatouage Permanent des Sourcils"
-bannerh1: "Sourcils Permanents"
-description: "Restructurez et embellissez vos sourcils avec notre service de tatouage permanent des sourcils. Visitez nous pour une consultation gratuite."
+title: "Body Tattoo Service"
+bannerh1: "Body Tattoos"
+description: "Using a rotating tattoo machine, artists Jaelle Cyr and Jessica Holloway implant ink into the derm of the skin. This creates a work of art for life. Visit us for a free consultation."
 layout: service
-slug: sourcils-permanents
+slug: body-tatoos
 
-img: "microblading.jpg"
-vid: true
-videoID: "PnlaGX9Iamo"
-price: "$499.99"
-touchup: true # touch up included? true will display
+img: "tatouage.jpg"
+vid: false
+videoID: "krgeoxmnaHU"
+price: "Sur Demande"
+touchup: false # touch up included? true will display
 
-service_desc: "Le microblading embellit la forme de vos sourcils tout en respectant l'harmonie de votre visage et la carnation de votre peau. Nous produisons l'apparence de vrais poils, en implantant manuellement un pigment de couleur dans l'épiderme. Nous utilisons une lame unique et stérile, créant ainsi une apparence très naturelle à vos sourcils. Chaque prestation de microblading est unique."
+service_desc: "Nous utilisons la méthode de tatouage la mieux connue. Utilisant une machine de tatouage rotatif, artistes Jaëlle Cyr et Jessica Holloway implantent de l'encre dans le derme de la peau. Ceci crée une oeuvre d'art pour la vie."
 
 # FAQ
 

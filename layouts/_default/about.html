@@ -12,11 +12,15 @@
 
         </div>
 
-        <div class="col-lg-7 col-md-12 order-1">
+        <div class="col-lg-7 col-md-12 order-1 d-flex flex-column justify-content-center">
 
-            <h2 class="">{{ .Params.heading }}</h2>
+            <h2 class="text-uppercase">{{ .Params.heading }}</h2>
 
-            {{ .Params.about__desc  | safeHTML }}
+            <p>{{ .Params.about__desc  | safeHTML }}</p>
+
+            <h2 class="text-uppercase">{{ .Params.heading2 }}</h2>
+
+            <p>{{ .Params.vision__desc }}</p>
 
         </div>
 
@@ -27,7 +31,7 @@
 </section>
 
 <section class="container my-5 py-5">
-    <h2 class="text-center pb-5">Portfolio Gallery</h2>
+    <h2 class="text-center text-uppercase pb-5">Portfolio Gallery</h2>
 
     {{- partial "gallery.html" . }}
 

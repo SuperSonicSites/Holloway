@@ -18,11 +18,6 @@ about__heading: "Bienvenue Chez Studio Holloway!"
 about__subheading: "Notre corps est notre toile. C'est un média pour nos propres histoires; où nous avons été, ce que nous avons fait et ce qui fait que nous sommes qui nous sommes! Mettre en valeur l'extérieur pour qu'il reflète la beauté de ce qui se passe à l'intérieur est une passion que l'artiste et propriétaire Jessica Holloway a toujours aimé poursuivre. Elle encourage ses clients à célébrer leur caractère unique, et s'efforce de les aider à travers ses services de tatouages cosmétiques.<br><br>
 L'équipe de Studio Holloway constitue aussi d'artistes Jaëlle Cyr (tatouage) et Alina Meshadi (microblading). Ensemble, elles offrent une multitudes de services de la plus haute qualité!"
 
-
-about__heading2: "POURQUOI CHOISIR LES ASSURANCES ET SERVICES FINANCIERS STEVENSON?"
-
-about__subheading2: "Nous sommes fiers d’offrir un excellent service à la clientèle basé sur notre connaissance approfondie de l’industrie des assurances, notre expertise en entreprises personnelles, commerciales et spécialisées, notre excellente réputation et, surtout, un engagement soutenu envers ce qui vous importe le plus."
-
 # Solution Section
 services__heading: "Nos Tatouages Cosmétiques"
 
