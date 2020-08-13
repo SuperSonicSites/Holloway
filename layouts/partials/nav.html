@@ -44,9 +44,9 @@
     
       {{ else }}
     
-      <li class="nav-item mt-2"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}en">Home</a></li>
+      <li class="nav-item mt-2"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}">Home</a></li>
      
-      <li class="nav-item mt-2"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}en/about-us">About Us</a></li>
+      <li class="nav-item mt-2"><a class="nav-link uppercase" href="{{ .Site.BaseURL | relLangURL }}/about-us">About Us</a></li>
      
       <li class="nav-item dropdown mt-2">
         
@@ -54,7 +54,7 @@
       
         <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
           
-          <li><a class="dropdown-item" href="{{ .Site.BaseURL }}/microblading">Microblading</a></li>
+          <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}//microblading">Microblading</a></li>
           
           <li><a class="dropdown-item" href="{{ .Site.BaseURL | relLangURL }}/permanent-eyebrows">Permanent Eyebrows</a></li>
           
