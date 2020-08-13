@@ -1,17 +1,17 @@
 ---
-title: "Body Tattoo Service"
-bannerh1: "Body Tattoos"
-description: "Using a rotating tattoo machine, artists Jaelle Cyr and Jessica Holloway implant ink into the derm of the skin. This creates a work of art for life. Visit us for a free consultation."
+title: "Microblading Services"
+bannerh1: "Microblading"
+description: "Restructure and beautify your eyebrows with microblading! Visit us for a free consultation."
 layout: service
-slug: body-tatoos
+slug: microblading
 
-img: "tatouage.jpg"
-vid: false
-videoID: "krgeoxmnaHU"
-price: "Sur Demande"
-touchup: false # touch up included? true will display
+img: "microblading.jpg"
+vid: true
+videoID: "Qwji530HVNk"
+price: "$299"
+touchup: true # touch up included? true will display
 
-service_desc: "We use the best known tattoo method. Using a rotary tattoo machine, artists Jaëlle Cyr and Jessica Holloway implant ink into the dermis of the skin. This creates a work of art for life."
+service_desc: "Microblading embellishes the shape of your eyebrows while respecting the harmony of your face and the complexion of your skin. We produce the appearance of real body hair, by manually implanting a colored pigment into the epidermis. We use a unique, sterile blade, creating a very natural look to your brows. Each microblading service is unique."
 
 # FAQ
 

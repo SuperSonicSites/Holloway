@@ -13,11 +13,11 @@
         
         {{ if eq .Site.Language.Lang "fr" }}
           
-        <a href="{{ .Site.BaseURL }}services" class="btn btn-primary text-uppercase" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="2000">{{ i18n "appointment" }}</a>
+        <a href="{{ .Site.BaseURL | relLangURL }}rendez-vous" class="btn btn-primary text-uppercase" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="2000">{{ i18n "appointment" }}</a>
                 
         {{ else }}
                 
-        <a href="{{ .Site.BaseURL }}en/services" class="btn btn-primary text-uppercase" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="2000">{{ i18n "appointment" }}</a>
+        <a href="{{ .Site.BaseURL | relLangURL }}/appointment" class="btn btn-primary text-uppercase" data-aos="zoom-in" data-aos-duration="500" data-aos-delay="2000">{{ i18n "appointment" }}</a>
                 
         {{ end }}
 
@@ -100,11 +100,11 @@
 
                   {{ if eq .Site.Language.Lang "fr" }}
           
-                  <a href="{{ .Site.BaseURL }}microblading" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL | relLangURL }}microblading" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ else }}
                 
-                  <a href="{{ .Site.BaseURL }}en/microblading" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL | relLangURL }}/microblading" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ end }}
 
@@ -126,11 +126,11 @@
 
                   {{ if eq .Site.Language.Lang "fr" }}
           
-                  <a href="{{ .Site.BaseURL }}sourcils-permanents/" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL | relLangURL }}sourcils-permanents/" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ else }}
                 
-                  <a href="{{ .Site.BaseURL }}en/services/#car" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL | relLangURL }}/permanent-eyebrows" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ end }}
 
@@ -153,11 +153,11 @@
 
                   {{ if eq .Site.Language.Lang "fr" }}
           
-                  <a href="{{ .Site.BaseURL }}levres-permanentes" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL | relLangURL }}levres-permanentes" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ else }}
                 
-                  <a href="{{ .Site.BaseURL }}en/services/#business" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL | relLangURL }}/permanent-lipstick" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ end }}
 
@@ -180,11 +180,11 @@
 
                     {{ if eq .Site.Language.Lang "fr" }}
                     
-                    <a href="{{ .Site.BaseURL }}eyeliner-et-intralash-permanent/" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                    <a href="{{ .Site.BaseURL | relLangURL }}eyeliner-et-intralash-permanent/" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                   
                     {{ else }}
                   
-                    <a href="{{ .Site.BaseURL }}en/services/#life" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                    <a href="{{ .Site.BaseURL | relLangURL }}/permanent-eyeliner-et-intralash" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                   
                     {{ end }}
 
@@ -210,11 +210,11 @@
 
                   {{ if eq .Site.Language.Lang "fr" }}
           
-                  <a href="{{ .Site.BaseURL }}micropigmentation-capillaire" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL | relLangURL }}micropigmentation-capillaire" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ else }}
                 
-                  <a href="{{ .Site.BaseURL }}en/services/#home" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL | relLangURL }}/scalp-micropigmentation" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ end }}
 
@@ -236,11 +236,11 @@
 
                   {{ if eq .Site.Language.Lang "fr" }}
           
-                  <a href="{{ .Site.BaseURL }}corrections-tatouages-cosmetiques" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL | relLangURL }}corrections-tatouages-cosmetiques" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ else }}
                 
-                  <a href="{{ .Site.BaseURL }}en/services/#car" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL | relLangURL }}/cosmetic-tattoo-corrections" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ end }}
 
@@ -263,11 +263,11 @@
 
                   {{ if eq .Site.Language.Lang "fr" }}
           
-                  <a href="{{ .Site.BaseURL }}tatouages-corporels" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL | relLangURL }}tatouages-corporels" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ else }}
                 
-                  <a href="{{ .Site.BaseURL }}en/services/#business" class="btn btn-primary">{{ i18n "learnmore" }}</a>
+                  <a href="{{ .Site.BaseURL | relLangURL }}/body-tatoos" class="btn btn-primary">{{ i18n "learnmore" }}</a>
                 
                   {{ end }}
 

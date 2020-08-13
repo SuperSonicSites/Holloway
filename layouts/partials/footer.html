@@ -38,11 +38,11 @@
           <li>
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/microblading" class="footer__link text-uppercase">Microblading</a>
+            <a href="{{ .Site.BaseURL | relLangURL }}microblading" class="footer__link text-uppercase">Microblading</a>
             
                 {{ else }}
             
-                <a href="{{ .Site.BaseURL | relLangURL }}/services/#auto" class="footer__link text-uppercase">Microblading</a>
+                <a href="{{ .Site.BaseURL | relLangURL }}/microblading" class="footer__link text-uppercase">Microblading</a>
             
               {{ end }}
           
@@ -53,11 +53,11 @@
             
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/sourcils-permanents" class="footer__link text-uppercase">{{ i18n "permanent-eyebrow" }}</a>
+            <a href="{{ .Site.BaseURL | relLangURL }}sourcils-permanents" class="footer__link text-uppercase">{{ i18n "permanent-eyebrow" }}</a>
             
                 {{ else }}
             
-                <a href="{{ .Site.BaseURL | relLangURL }}/services#home" class="footer__link text-uppercase">{{ i18n "permanent-eyebrow" }}</a>
+                <a href="{{ .Site.BaseURL | relLangURL }}/permanent-eyebrows" class="footer__link text-uppercase">{{ i18n "permanent-eyebrow" }}</a>
             
               {{ end }}
             
@@ -67,11 +67,11 @@
             
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/levres-permanentes" class="footer__link text-uppercase">{{ i18n "permanent-lips" }}</a>
+            <a href="{{ .Site.BaseURL | relLangURL }}levres-permanentes" class="footer__link text-uppercase">{{ i18n "permanent-lips" }}</a>
             
                 {{ else }}
             
-                <a href="{{ .Site.BaseURL | relLangURL }}/services#business" class="footer__link text-uppercase">{{ i18n "permanent-lips" }}</a>
+                <a href="{{ .Site.BaseURL | relLangURL }}/permanent-lipstick" class="footer__link text-uppercase">{{ i18n "permanent-lips" }}</a>
             
               {{ end }}
 
@@ -81,11 +81,11 @@
             
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/eyeliner-et-intralash-permanent" class="footer__link text-uppercase">Intralash & Eyeliner</a>
+            <a href="{{ .Site.BaseURL | relLangURL }}eyeliner-et-intralash-permanent" class="footer__link text-uppercase">Intralash & Eyeliner</a>
             
                 {{ else }}
             
-                <a href="{{ .Site.BaseURL | relLangURL }}/services/#life" class="footer__link text-uppercase">Intralash & Eyeliner</a>
+                <a href="{{ .Site.BaseURL | relLangURL }}/permanent-eyeliner-et-intralash" class="footer__link text-uppercase">Intralash & Eyeliner</a>
             
               {{ end }}
 
@@ -97,11 +97,11 @@
 
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/micropigmentation-capillaire" class="footer__link text-uppercase text-lg-left text-center">{{ i18n "micropigmentation" }}</a>
+            <a href="{{ .Site.BaseURL | relLangURL }}micropigmentation-capillaire" class="footer__link text-uppercase text-lg-left text-center">{{ i18n "micropigmentation" }}</a>
             
                 {{ else }}
             
-                <a href="{{ .Site.BaseURL | relLangURL }}/services#life" class="footer__link text-uppercase">{{ i18n "micropigmentation" }}</a>
+                <a href="{{ .Site.BaseURL | relLangURL }}/permanent-eyeliner-et-intralash" class="footer__link text-uppercase">{{ i18n "micropigmentation" }}</a>
             
               {{ end }}
             
@@ -110,11 +110,11 @@
           <li>
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}corrections-tatouages-cosmetiques" class="footer__link text-uppercase">{{ i18n "tatoofixes" }}</a>
+            <a href="{{ .Site.BaseURL | relLangURL }}corrections-tatouages-cosmetiques" class="footer__link text-uppercase">{{ i18n "tatoofixes" }}</a>
             
                 {{ else }}
             
-                <a href="{{ .Site.BaseURL | relLangURL }}/services#life" class="footer__link text-uppercase">{{ i18n "tatoofixes" }}</a>
+                <a href="{{ .Site.BaseURL | relLangURL }}/permanent-eyeliner-et-intralash" class="footer__link text-uppercase">{{ i18n "tatoofixes" }}</a>
             
               {{ end }}
           
@@ -123,11 +123,11 @@
           <li>
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/tatouages-corporels" class="footer__link text-uppercase">{{ i18n "bodytatoos" }}</a>
+            <a href="{{ .Site.BaseURL | relLangURL }}tatouages-corporels" class="footer__link text-uppercase">{{ i18n "bodytatoos" }}</a>
             
                 {{ else }}
             
-                <a href="{{ .Site.BaseURL | relLangURL }}/services#life" class="footer__link text-uppercase">{{ i18n "bodytatoos" }}</a>
+                <a href="{{ .Site.BaseURL | relLangURL }}/body-tatoos" class="footer__link text-uppercase">{{ i18n "bodytatoos" }}</a>
             
               {{ end }}
           
