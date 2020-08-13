@@ -42,6 +42,11 @@
     font-size: 0.8rem;
     font-family: 'Montserrat' !important;
 }
+@media (max-width:768px) {
+    .card-title {
+        font-size: 1.2rem;
+    }
+}
 .bg-primary {
     background-color: $brand-color !important;
 }
