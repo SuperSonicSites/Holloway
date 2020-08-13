@@ -101,7 +101,7 @@
             
                 {{ else }}
             
-                <a href="{{ .Site.BaseURL | relLangURL }}/permanent-eyeliner-et-intralash" class="footer__link text-uppercase">{{ i18n "micropigmentation" }}</a>
+                <a href="{{ .Site.BaseURL | relLangURL }}/scalp-micropigmentation" class="footer__link text-uppercase">{{ i18n "micropigmentation" }}</a>
             
               {{ end }}
             
@@ -114,7 +114,7 @@
             
                 {{ else }}
             
-                <a href="{{ .Site.BaseURL | relLangURL }}/permanent-eyeliner-et-intralash" class="footer__link text-uppercase">{{ i18n "tatoofixes" }}</a>
+                <a href="{{ .Site.BaseURL | relLangURL }}/cosmetic-tattoo-corrections" class="footer__link text-uppercase">{{ i18n "tatoofixes" }}</a>
             
               {{ end }}
           
@@ -147,11 +147,11 @@
           <li>
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/a-propos" class="footer__link text-uppercase">{{ i18n "aboutus" }}</a>
+            <a href="{{ .Site.BaseURL | relLangURL }}a-propos" class="footer__link text-uppercase">{{ i18n "aboutus" }}</a>
             
                 {{ else }}
             
-                <a href="{{ .Site.BaseURL | relLangURL }}/about" class="footer__link text-uppercase">{{ i18n "aboutus" }}</a>
+                <a href="{{ .Site.BaseURL | relLangURL }}/about-us" class="footer__link text-uppercase">{{ i18n "aboutus" }}</a>
             
               {{ end }}
             
@@ -161,7 +161,7 @@
 
             {{ if eq .Site.Language.Lang "fr" }}
           
-            <a href="{{ .Site.BaseURL }}/privacy-policy" class="footer__link text-uppercase">{{ i18n "privacypolicy" }}</a>
+            <a href="{{ .Site.BaseURL | relLangURL }}privacy-policy" class="footer__link text-uppercase">{{ i18n "privacypolicy" }}</a>
             
                 {{ else }}
             
