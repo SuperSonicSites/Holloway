@@ -218,9 +218,7 @@ p {
 .contact__detail a:hover {
   fill: black; }
 
-.map-wrapper {
-  filter: grayscale(100%); }
-
+/* YOUTUBE */
 @media only screen and (max-width: 768px) {
   .contact__form--info {
     padding-top: 0px;
