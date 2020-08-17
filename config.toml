@@ -1,7 +1,7 @@
-baseURL = "https://studioholloway.netlify.app/"
+baseURL = "https://studioholloway.com/"
 DefaultContentLanguage = "fr"
 disableKinds = ["taxonomy", "taxonomyTerm"]
-# googleAnalytics = "UA-122117077-1"
+googleAnalytics = "UA-107083749-1"
 
 [languages]
 
@@ -85,7 +85,7 @@ disableKinds = ["taxonomy", "taxonomyTerm"]
     facebookurl = "https://www.facebook.com/pg/studioholloway/"
     instagram = "https://www.instagram.com/studioholloway/"
     logo = "img/logo.jpg"
-    image = "img/og.jpg" # Ideal 1200 x 630 for schema + og
+    image = "img/og.png" # Ideal 1200 x 630 for schema + og
 
 [sitemap]
   changefreq = "monthly"
