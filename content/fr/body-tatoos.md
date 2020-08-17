@@ -1,6 +1,6 @@
 ---
 title: "Service de Tatouages Corporels"
-bannerh1: "Corrections tatouages"
+bannerh1: "Tatouages Corporels"
 description: "Utilisant une machine de tatouage rotatif, artistes Jaëlle Cyr et Jessica Holloway implantent de l'encre dans le derme de la peau. Ceci crée une oeuvre d'art pour la vie. Visitez nous pour une consultation gratuite."
 layout: service
 slug: tatouages-corporels
