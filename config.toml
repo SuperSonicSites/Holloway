@@ -1,4 +1,4 @@
-baseURL = "https://studioholloway.com/"
+baseURL = "https://www.studioholloway.com/"
 DefaultContentLanguage = "fr"
 disableKinds = ["taxonomy", "taxonomyTerm"]
 googleAnalytics = "UA-107083749-1"
