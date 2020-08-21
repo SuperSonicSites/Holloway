@@ -2,8 +2,3 @@
 	from = "/*"
 	to = "/404/"
 	status = 404
-
-[[redirects]]
-	from = "/microblading-vs-microshading"
-	to = "/microblading"
-	status = 301
