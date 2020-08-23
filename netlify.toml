@@ -17,11 +17,18 @@ command = "hugo --gc --minify"
   status = 301
   force = true #COMMENT: ensure that we always redirect
 
-  [[redirects]]
+[[redirects]]
   from = "https://www.studioholloway.com/cest-quoi-la-difference-entre-le-microblading-et-les-sourcils-permanents/"
   to = "https://www.studioholloway.com/microblading"
   status = 301
   force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://www.studioholloway.com/microblading-touch-ups.html"
+  to = "https://www.studioholloway.com/microblading"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+  
 
 [[redirects]]
 	from = "/*"
