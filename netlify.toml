@@ -6,29 +6,41 @@ publish = "public"
 command = "hugo --gc --minify"
 
 [[redirects]]
-  from = "https://www.studioholloway.com/microblading-vs-microshading"
+  from = "https://studioholloway.com/microblading-vs-microshading"
   to = "https://www.studioholloway.com/microblading"
   status = 301
   force = true #COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://www.studioholloway.com/cest-quoi-le-microblading"
+  from = "https://studioholloway.com/cest-quoi-le-microblading"
   to = "https://www.studioholloway.com/microblading"
   status = 301
   force = true #COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://www.studioholloway.com/cest-quoi-la-difference-entre-le-microblading-et-les-sourcils-permanents/"
+  from = "https://studioholloway.com/cest-quoi-la-difference-entre-le-microblading-et-les-sourcils-permanents/"
   to = "https://www.studioholloway.com/microblading"
   status = 301
   force = true #COMMENT: ensure that we always redirect
 
 [[redirects]]
-  from = "https://www.studioholloway.com/microblading-touch-ups.html"
+  from = "https://studioholloway.com/microblading-touch-ups.html"
   to = "https://www.studioholloway.com/microblading"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+  [[redirects]]
+  from = "https://studioholloway.com/intralash-mais-cest-quoi-ca/"
+  to = "https://www.studioholloway.com/eyeliner-et-intralash-permanent/"
   status = 301
   force = true #COMMENT: ensure that we always redirect
   
+  [[redirects]]
+  from = "https://studioholloway.com/le-maquillage-permanent-des-levres-ce-quil-faut-savoir/"
+  to = "https://www.studioholloway.com/levres-permanentes/"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
 
 [[redirects]]
 	from = "/*"
