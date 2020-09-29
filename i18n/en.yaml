@@ -19,7 +19,7 @@
 - id: touchup
   translation: "Touch up included."
 - id: appointment
-  translation: "Take An Appointment"
+  translation: "Make An Appointment"
 - id: learnmore
   translation: "Learn More"
 - id: firstname
