@@ -41,6 +41,18 @@ command = "hugo --gc --minify"
   status = 301
   force = true #COMMENT: ensure that we always redirect
 
+  [[redirects]]
+  from = "https://studioholloway.com/prenez-rendez-vous/"
+  to = "https://www.studioholloway.com/rendez-vous/"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+  [[redirects]]
+  from = "https://studioholloway.com/portfolio/"
+  to = "https://www.studioholloway.com/a-propos/"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+	
 
 [[redirects]]
 	from = "/*"
