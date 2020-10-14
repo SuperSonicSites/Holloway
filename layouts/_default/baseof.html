@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="{{ .Site.LanguageCode }}">
   <head>
-    {{ template "_internal/google_analytics.html" . }}
+    
     <!-- Required meta tags -->
     
     <meta charset="utf-8">
@@ -31,7 +31,7 @@
     <meta name="robots" content="index, follow">
   
     {{ end }}
-
+    {{- partial "gtm-head.html" . }}
   </head>
   <body>
     <div id="content">
@@ -41,5 +41,6 @@
    
    <footer class="footer">{{- partial "footer.html" . }}</footer>
    <script src="//instant.page/5.1.0" type="module" integrity="sha384-by67kQnR+pyfy8yWP4kPO12fHKRLHZPfEsiSXR8u2IKcTdxD805MGUXBzVPnkLHw"></script>
+   {{- partial "gtm-body.html" . }}
   </body>
 </html>
