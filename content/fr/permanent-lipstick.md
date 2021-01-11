@@ -8,7 +8,7 @@ slug: levres-permanentes
 img: "permanent-lipstick.jpg"
 vid: false
 videoID: "PnlaGX9Iamo"
-price: "$499.99"
+price: "$649.99"
 touchup: true # touch up included? true will display
 
 service_desc: "Le tatouage cosmétique des lèvres est une technique visant à embellir l'apparence et la pigmentation naturelle de votre bouche ! Que vous recherchiez, un style plus naturel (Lip gloss), plus maquillé (Rouge à lèvre), corriger une asymétrie ou donner un effet plus volumineux, le tatouage cosmétique redéfinit et embellit vos lèvres !"
