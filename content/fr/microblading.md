@@ -8,7 +8,7 @@ slug: microblading
 img: "microblading.jpg"
 vid: true
 videoID: "PnlaGX9Iamo"
-price: "$299"
+price: "$475"
 touchup: true # touch up included? true will display
 
 service_desc: "Le microblading embellit la forme de vos sourcils tout en respectant l'harmonie de votre visage et la carnation de votre peau. Nous produisons l'apparence de vrais poils, en implantant manuellement un pigment de couleur dans l'épiderme. Nous utilisons une lame unique et stérile, créant ainsi une apparence très naturelle à vos sourcils. Chaque prestation de microblading est unique."
