@@ -8,7 +8,7 @@ slug: microblading
 img: "microblading.jpg"
 vid: true
 videoID: "Qwji530HVNk"
-price: "$299"
+price: "$475"
 touchup: true # touch up included? true will display
 
 service_desc: "Microblading embellishes the shape of your eyebrows while respecting the harmony of your face and the complexion of your skin. We produce the appearance of real body hair, by manually implanting a colored pigment into the epidermis. We use a unique, sterile blade, creating a very natural look to your brows. Each microblading service is unique."
