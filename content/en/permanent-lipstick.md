@@ -8,7 +8,7 @@ slug: permanent-lipstick
 img: "permanent-lipstick.jpg"
 vid: false
 videoID: "PnlaGX9Iamo"
-price: "$649.99"
+price: "$700"
 touchup: true # touch up included? true will display
 
 service_desc: "Cosmetic lip tattooing is a technique designed to beautify the appearance and natural pigmentation of your mouth! Whether you're looking for a more natural style (Lip gloss), more make-up (Lipstick), correct asymmetry or give a larger effect, the cosmetic tattoo redefines and embellishes your lips!"
