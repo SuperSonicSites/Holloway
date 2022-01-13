@@ -8,7 +8,7 @@ slug: permanent-eyeliner-et-intralash
 img: ""
 vid: true
 videoID: "lRO6msieApE"
-price: "$324.99"
+price: "$475"
 touchup: true # touch up included? true will display
 
 service_desc: "Intralash and permanent eyeliner are two techniques to bring out your look with the most delicate lines! We offer you an intra-eyelash line, an eyeliner and even a combination of both, for a radiant look as soon as you wake up!"
