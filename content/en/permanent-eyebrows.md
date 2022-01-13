@@ -8,7 +8,7 @@ slug: permanent-eyebrows
 img: "microblading.jpg"
 vid: true
 videoID: "Qwji530HVNk"
-price: "$599.99"
+price: "$700"
 touchup: true # touch up included? true will display
 
 service_desc: "Permanent eyebrow makeup is another option than microblading, which gives us the choice to work a multitude of styles, such as: hair by hair, shade, pointillism, or even a combination of several styles. The permanent tattoo of the eyebrows, has a longer lifespan than microblading. This is because the pigment is implanted into the skin using a machine."
