@@ -13,6 +13,8 @@ touchup: true # touch up included? true will display
 
 service_desc: "Le maquillage permanent des sourcils est une autre option que le microblading, qui nous donne le choix de travailler une multitude de styles, tels que: le poil par poil, l'ombragé, le pointillisme, ou même une combinaison de plusieurs styles. Le tatouage permanent des sourcils, possède une durée de vie plus longue que le microblading. Cela est dû au fait que le pigment soit implanté dans la peau à l'aide d'une machine."
 
+booking_link: "https://studioholloway.as.me/"
+
 # FAQ
 
 question1: "Est-ce que ça fait mal?"

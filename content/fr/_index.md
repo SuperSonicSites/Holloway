@@ -7,7 +7,7 @@ videoID: "VPX-nD6YrvA"
 # Hero Header Section
 
 heading0: "Nous Offrons"
-heading1: "Une expérience unique en microblading et tatouage cosmétique"
+heading1: "Une expérience unique en microblading et tatouage cosmétique et traditionel"
 heading2: "Obtenez votre consultation gratuite"
 
 

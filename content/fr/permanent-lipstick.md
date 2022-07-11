@@ -13,6 +13,8 @@ touchup: true # touch up included? true will display
 
 service_desc: "Le tatouage cosmétique des lèvres est une technique visant à embellir l'apparence et la pigmentation naturelle de votre bouche ! Que vous recherchiez, un style plus naturel (Lip gloss), plus maquillé (Rouge à lèvre), corriger une asymétrie ou donner un effet plus volumineux, le tatouage cosmétique redéfinit et embellit vos lèvres !"
 
+booking_link: "https://studioholloway.as.me/?appointmentType=5420237"
+
 # FAQ
 
 question1: "Est-ce que ça fait mal?"

@@ -13,6 +13,8 @@ touchup: true # touch up included? true will display
 
 service_desc: "L'intralash et l'eyeliner permanent sont deux techniques pour faire ressortir votre regard avec les plus délicates des lignes! Nous vous offrons une ligne intra-cil, un eyeliner et même une combinaison des deux, pour un regard éclatant dès le réveil!"
 
+booking_link: "https://studioholloway.as.me/"
+
 # FAQ
 
 question1: "Est-ce que ça fait mal?"

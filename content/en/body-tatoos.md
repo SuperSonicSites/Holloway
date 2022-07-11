@@ -13,6 +13,9 @@ touchup: false # touch up included? true will display
 
 service_desc: "We use the best known tattoo method. Using a rotary tattoo machine, artists Jaëlle Cyr and Jessica Holloway implant ink into the dermis of the skin. This creates a work of art for life."
 
+
+booking_link: "https://studioholloway.as.me/?appointmentType=11708948"
+
 # FAQ
 
 question1: "Does it hurt?"

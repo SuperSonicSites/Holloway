@@ -13,6 +13,8 @@ touchup: false # touch up included? true will display
 
 service_desc: "Nous utilisons la méthode de tatouage la mieux connue. Utilisant une machine de tatouage rotatif, artistes Jaëlle Cyr et Jessica Holloway implantent de l'encre dans le derme de la peau. Ceci crée une oeuvre d'art pour la vie."
 
+booking_link: "https://studioholloway.as.me/?appointmentType=11708948"
+
 # FAQ
 
 question1: "Est-ce que ça fait mal?"

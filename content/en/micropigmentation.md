@@ -13,6 +13,9 @@ touchup: false # touch up included? true will display
 
 service_desc: "Scalp micropigmentation is a much less invasive solution to compensate for hair loss. The illusion of follicles is given. By implanting the pigment in the epidermis, we can create a new hair line with a 'shaved' look, or give the illusion of density in the more sparse areas. These latter techniques can be used on both men and women. It is a personalized service where the hair line, style and color depend on each client. All this gives a very natural look."
 
+
+booking_link: "https://studioholloway.as.me/?appointmentType=8075820"
+
 # FAQ
 
 question1: "Does it hurt?"

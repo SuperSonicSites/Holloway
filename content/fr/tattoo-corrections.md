@@ -13,6 +13,8 @@ touchup: false # touch up included? true will display
 
 service_desc: "Parfois, il arrive de tomber sur un artiste ne maitrisant pas le tatouage cosmétique ou qui n'a pas été suffisamment à l'écoute de vos attentes. Si vous n'êtes pas satisfait(e) de votre tatouage cosmétique, n'hésitez pas à nous envoyer des photos, afin de voir si nous pouvons vous aider à retrouver le sourire!"
 
+booking_link: "https://studioholloway.as.me/?appointmentType=11708948"
+
 # FAQ
 
 question1: "Est-ce que ça fait mal?"

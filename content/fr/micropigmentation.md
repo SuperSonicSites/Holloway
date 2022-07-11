@@ -13,6 +13,7 @@ touchup: false # touch up included? true will display
 
 service_desc: "La micropigmentation capillaire est une solution beaucoup moins invasive, pour pallier à la perte de cheveux. On donne l'illusion de follicules. En implantant le pigment dans l'épiderme, nous pouvons créer une nouvelle ligne de cheveux avec un look 'rasé', ou donner l'illusion de densité dans les régions plus clairsemées. Ces dernières techniques peuvent être utilisées sur les hommes comme sur les femmes. C'est un service personnalisé où la ligne du cheveu, le style et la couleur dépendent de chaque client. Tout cela, donne ainsi un look très naturel."
 
+booking_link: "https://studioholloway.as.me/?appointmentType=8075820"
 # FAQ
 
 question1: "Est-ce que ça fait mal?"

@@ -12,6 +12,18 @@ command = "hugo --gc --minify"
   force = true #COMMENT: ensure that we always redirect
 
 [[redirects]]
+  from = "https://www.studioholloway.com/rendez-vous"
+  to = "https://studioholloway.as.me/"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
+  from = "https://www.studioholloway.com/en/appointment"
+  to = "https://studioholloway.as.me/"
+  status = 301
+  force = true #COMMENT: ensure that we always redirect
+
+[[redirects]]
   from = "https://studioholloway.com/cest-quoi-le-microblading"
   to = "https://www.studioholloway.com/microblading"
   status = 301

@@ -13,6 +13,8 @@ touchup: true # touch up included? true will display
 
 service_desc: "Le microblading embellit la forme de vos sourcils tout en respectant l'harmonie de votre visage et la carnation de votre peau. Nous produisons l'apparence de vrais poils, en implantant manuellement un pigment de couleur dans l'épiderme. Nous utilisons une lame unique et stérile, créant ainsi une apparence très naturelle à vos sourcils. Chaque prestation de microblading est unique."
 
+booking_link: "https://studioholloway.as.me/?appointmentType=12267903"
+
 # FAQ
 
 question1: "Est-ce que ça fait mal?"

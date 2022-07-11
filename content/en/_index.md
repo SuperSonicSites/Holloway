@@ -7,7 +7,7 @@ videoID: "ZCJuudC72EM"
 # Hero Header Section
 
 heading0: "We Offer"
-heading1: "The Best service in microblading and cosmetic tattooing"
+heading1: "The Best service in microblading, cosmetic & traditional tattooing"
 heading2: "Get your free consultation"
 
 # About Section

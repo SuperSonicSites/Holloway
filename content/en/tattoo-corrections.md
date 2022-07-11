@@ -13,6 +13,9 @@ touchup: false # touch up included? true will display
 
 service_desc: "Sometimes you come across an artist who doesn't master the cosmetic tattoo or hasn't listened enough to your expectations. If you are not satisfied with your cosmetic tattoo, please send us pictures, to see if we can help you get a smile back!"
 
+
+booking_link: "https://studioholloway.as.me/?appointmentType=11708948"
+
 # FAQ
 
 question1: "Does it hurt?"

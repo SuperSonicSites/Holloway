@@ -13,6 +13,9 @@ touchup: true # touch up included? true will display
 
 service_desc: "Cosmetic lip tattooing is a technique designed to beautify the appearance and natural pigmentation of your mouth! Whether you're looking for a more natural style (Lip gloss), more make-up (Lipstick), correct asymmetry or give a larger effect, the cosmetic tattoo redefines and embellishes your lips!"
 
+
+booking_link: "https://studioholloway.as.me/?appointmentType=5420237"
+
 # FAQ
 
 question1: "Does it hurt?"
